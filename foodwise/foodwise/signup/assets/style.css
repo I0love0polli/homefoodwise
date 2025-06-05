@@ -1,0 +1,235 @@
+body {
+   background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1350&q=80');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin: 0;
+   overflow: hidden;
+}
+
+body::before {
+   content: '';
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.7);
+   z-index: 1;
+}
+
+body > * {
+   position: relative;
+   z-index: 2;
+}
+
+.d-flex.justify-content-center.align-items-center.vh-100 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+}
+
+.registration-container {
+   background: rgba(30, 30, 30, 0.95);
+   max-width: 700px;
+   width: 100%;
+   border-radius: 15px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+   padding: 2rem;
+}
+
+.bold-title {
+   color: #e0e0e0;
+   font-weight: 700;
+   font-size: 1.8rem;
+}
+
+.form-label {
+   color: #e0e0e0;
+   font-size: 0.85rem;
+   font-weight: 500;
+   margin-bottom: 0.25rem;
+}
+
+.input-wrapper {
+   position: relative;
+   height: 42px;
+   border-radius: 8px;
+   background: #2a2a2a;
+   overflow: hidden;
+}
+
+.form-control {
+   background: #2a2a2a;
+   border: none;
+   color: #ffffff;
+   padding: 10px 12px 10px 40px;
+   height: 100%;
+   font-size: 0.85rem;
+   width: 100%;
+}
+
+.form-control::placeholder {
+   color: #a0a0a0;
+   opacity: 0.8;
+}
+
+.form-control:focus {
+   background: #2a2a2a;
+   color: #ffffff;
+   box-shadow: none;
+   border: none;
+   outline: 2px solid #00FF7F;
+}
+
+.input-icon {
+   position: absolute;
+   left: 12px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #00FF7F;
+   display: flex;
+   align-items: center;
+}
+
+.input-icon ion-icon {
+   font-size: 1.1rem;
+}
+
+.eye-icon {
+   position: absolute;
+   right: 12px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #00FF7F;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+}
+
+.eye-icon ion-icon {
+   font-size: 1.1rem;
+}
+
+.btn-action {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0, 255, 127, 0.2);
+   border: 2px solid #00FF7F;
+   color: #00FF7F;
+   padding: 6px 12px;
+   font-size: 18px;
+   border-radius: 10px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   font-weight: 700;
+}
+
+.btn-action:hover {
+   background-color: rgba(0, 255, 127, 0.2);
+   border-color: #00FF7F;
+   color: #00FF7F;
+   transform: translateY(-2px);
+}
+
+.link-item {
+   margin-bottom: 0.25rem;
+   color: #a0a0a0;
+   font-size: 0.85rem;
+}
+
+.link-item a {
+   color: #00FF7F;
+   text-decoration: none;
+}
+
+.link-item a:hover {
+   color: #28a745;
+}
+
+.alert-danger {
+   background: #4a1a1a;
+   border-color: #661a1a;
+   color: #ff6666;
+   font-size: 0.8rem;
+   padding: 0.4rem;
+   border-radius: 8px;
+}
+
+.alert-success {
+   background: #1a4a1a;
+   border-color: #1a661a;
+   color: #66ff66;
+   font-size: 0.8rem;
+   padding: 0.4rem;
+   border-radius: 8px;
+}
+
+.invalid-feedback {
+   color: #ff6666;
+   font-size: 0.8rem;
+}
+
+.form-control.is-invalid {
+   background: #2a2a2a;
+   border: none;
+}
+
+.input-wrapper:has(.form-control.is-invalid) {
+   outline: 2px solid #ff6666;
+}
+
+@media (max-width: 576px) {
+   .registration-container {
+       padding: 1.5rem;
+       max-width: 95%;
+   }
+
+   .bold-title {
+       font-size: 1.5rem;
+   }
+
+   .form-label {
+       font-size: 0.8rem;
+   }
+
+   .form-control {
+       font-size: 0.8rem;
+       padding-left: 36px;
+   }
+
+   .input-icon {
+       left: 10px;
+   }
+
+   .input-icon ion-icon {
+       font-size: 1rem;
+   }
+
+   .eye-icon {
+       right: 10px;
+   }
+
+   .eye-icon ion-icon {
+       font-size: 1rem;
+   }
+
+   .btn-action {
+       font-size: 0.85rem;
+   }
+
+   .link-item {
+       font-size: 0.8rem;
+       margin-bottom: 0.2rem;
+   }
+
+   .alert-danger,
+   .alert-success,
+   .invalid-feedback {
+       font-size: 0.75rem;
+   }
+}

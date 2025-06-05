@@ -1,0 +1,327 @@
+[03-Jun-2025 17:33:23 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT do.id_dettaglio_ordine, do.id_portata, p.nome AS nome...
+               ^ in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 56
+[03-Jun-2025 17:33:23 Europe/Berlin] Errore SQL in query_dettagli per ordine ID 5: ERROR:  syntax error at or near "do"
+LINE 1: SELECT do.id_dettaglio_ordine, do.id_portata, p.nome AS nome...
+               ^
+[03-Jun-2025 17:33:23 Europe/Berlin] Exception in get_ordini.php: Errore nella query dei dettagli ordine per ordine ID 5: ERROR:  syntax error at or near "do"
+LINE 1: SELECT do.id_dettaglio_ordine, do.id_portata, p.nome AS nome...
+               ^
+[04-Jun-2025 10:40:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:40:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:40:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:41:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:41:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:41:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:42:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:42:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:42:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:43:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:43:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:43:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:44:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:44:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:44:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:45:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:45:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:45:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:46:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:46:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:46:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:47:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:47:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:47:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:48:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:48:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:48:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:49:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:49:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:49:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:50:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:50:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:50:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:51:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:51:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:51:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:52:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:52:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:52:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:53:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 10:53:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 10:53:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:14:52 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:14:52 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:14:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:15:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:15:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:15:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:16:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:16:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:16:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:17:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:17:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:17:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:18:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:18:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:18:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:19:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:19:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:19:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:20:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:20:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:20:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:21:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:21:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:21:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:22:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:22:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:22:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:23:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:23:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:23:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:24:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:24:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:24:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:25:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:25:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:25:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:26:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:26:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:26:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:27:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:27:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:27:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:28:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:28:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:28:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:29:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:29:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:29:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:30:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:30:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:30:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:31:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:31:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:31:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:32:25 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 11:32:25 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 11:32:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(23): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 16:02:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:03:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:04:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:04:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:04:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:05:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:05:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:05:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:06:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:06:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[04-Jun-2025 16:06:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "PGSQL_DIAG_STATEMENT_NAME" in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 92
+[05-Jun-2025 17:23:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: pg_query_params(): Argument #1 ($connection) must be of type string, PgSql\Connection given in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:84
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(84): pg_query_params(Object(PgSql\Connection), 'SELECT o.id_ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 84
+[05-Jun-2025 17:23:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: pg_query_params(): Argument #1 ($connection) must be of type string, PgSql\Connection given in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php:84
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php(84): pg_query_params(Object(PgSql\Connection), 'SELECT o.id_ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\ordini\get_ordini.php on line 84

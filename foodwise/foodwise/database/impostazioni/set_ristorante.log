@@ -1,0 +1,1543 @@
+[2025-04-25 17:58:25] set_ristorante.php started
+[2025-04-25 17:58:25] Current Restaurant ID (name): Arlecchino
+[2025-04-25 17:58:27] Database connected successfully
+[2025-04-25 17:58:27] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221333222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"10"}
+[2025-04-25 17:58:27] Creating upload directory: ../../Uploads/Ristoranti/
+[2025-04-25 17:58:27] No image uploaded or upload error: 4
+[2025-04-25 17:58:27] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 17:58:27] Parameters: ["vicino al campo di concentramento","2221333222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","10","Arlecchino"]
+[2025-04-25 17:58:27] Update successful
+[2025-04-25 17:58:27] set_ristorante.php completed
+[2025-04-25 18:32:34] set_ristorante.php started
+[2025-04-25 18:32:34] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:32:36] Database connected successfully
+[2025-04-25 18:32:36] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221333222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"10"}
+[2025-04-25 18:32:36] No image uploaded or upload error: 4
+[2025-04-25 18:32:36] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 18:32:36] Parameters: ["vicino al campo di concentramento","2221333222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","10","Arlecchino"]
+[2025-04-25 18:32:36] Update successful
+[2025-04-25 18:32:36] set_ristorante.php completed
+[2025-04-25 18:33:33] set_ristorante.php started
+[2025-04-25 18:33:33] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:33:35] Database connected successfully
+[2025-04-25 18:33:35] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221333222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"10"}
+[2025-04-25 18:33:35] No image uploaded or upload error: 4
+[2025-04-25 18:33:35] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 18:33:35] Parameters: ["vicino al campo di concentramento","2221333222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","10","Arlecchino"]
+[2025-04-25 18:33:35] Update successful
+[2025-04-25 18:33:35] set_ristorante.php completed
+[2025-04-25 18:33:47] set_ristorante.php started
+[2025-04-25 18:33:47] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:33:49] Database connected successfully
+[2025-04-25 18:33:49] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221333222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"5"}
+[2025-04-25 18:33:49] No image uploaded or upload error: 4
+[2025-04-25 18:33:49] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 18:33:49] Parameters: ["vicino al campo di concentramento","2221333222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","5","Arlecchino"]
+[2025-04-25 18:33:49] Update successful
+[2025-04-25 18:33:49] set_ristorante.php completed
+[2025-04-25 18:35:38] set_ristorante.php started
+[2025-04-25 18:35:38] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:35:40] Database connected successfully
+[2025-04-25 18:35:40] Form data received: {"restaurantName":"diogiallo","address":"vicino al campo di concentramento","phone":"2221333222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"5"}
+[2025-04-25 18:35:40] No image uploaded or upload error: 4
+[2025-04-25 18:35:40] Query: UPDATE ristoranti SET 
+        id_ristorante = $6, ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $7
+[2025-04-25 18:35:40] Parameters: ["diogiallo","vicino al campo di concentramento","2221333222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","5","Arlecchino"]
+[2025-04-25 18:35:40] Errore nell'aggiornamento dei dati: ERROR:  syntax error at or near "SET"
+LINE 2:         id_ristorante = $6, ristoranti SET 
+                                               ^
+[2025-04-25 18:35:44] set_ristorante.php started
+[2025-04-25 18:35:44] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:35:46] Database connected successfully
+[2025-04-25 18:35:46] Form data received: {"restaurantName":"diogiallo","address":"vicino al campo di concentramento","phone":"2221333222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"5"}
+[2025-04-25 18:35:46] No image uploaded or upload error: 4
+[2025-04-25 18:35:46] Query: UPDATE ristoranti SET 
+        id_ristorante = $6, ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $7
+[2025-04-25 18:35:46] Parameters: ["diogiallo","vicino al campo di concentramento","2221333222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","5","Arlecchino"]
+[2025-04-25 18:35:46] Errore nell'aggiornamento dei dati: ERROR:  syntax error at or near "SET"
+LINE 2:         id_ristorante = $6, ristoranti SET 
+                                               ^
+[2025-04-25 18:36:06] set_ristorante.php started
+[2025-04-25 18:36:06] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:36:07] Database connected successfully
+[2025-04-25 18:36:07] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.whatsapp.com","openingHours":"5"}
+[2025-04-25 18:36:07] No image uploaded or upload error: 4
+[2025-04-25 18:36:07] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 18:36:07] Parameters: ["vicino al campo di concentramento","2221555222","ascaniozorzi@gmail.com","https:\/\/web.whatsapp.com","5","Arlecchino"]
+[2025-04-25 18:36:08] Update successful
+[2025-04-25 18:36:08] set_ristorante.php completed
+[2025-04-25 18:36:24] set_ristorante.php started
+[2025-04-25 18:36:24] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:36:25] Database connected successfully
+[2025-04-25 18:36:25] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"5"}
+[2025-04-25 18:36:25] No image uploaded or upload error: 4
+[2025-04-25 18:36:25] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 18:36:25] Parameters: ["vicino al campo di concentramento","2221555222","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","5","Arlecchino"]
+[2025-04-25 18:36:26] Update successful
+[2025-04-25 18:36:26] set_ristorante.php completed
+[2025-04-25 18:38:07] set_ristorante.php started
+[2025-04-25 18:38:07] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:38:08] Database connected successfully
+[2025-04-25 18:38:08] Form data received: {"restaurantName":"Arlecchin","address":"vicino al campo di concentramento","phone":"2221555222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"5"}
+[2025-04-25 18:38:08] No image uploaded or upload error: 4
+[2025-04-25 18:38:08] Query: UPDATE ristoranti SET 
+        id_ristorante = $6, ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $7
+[2025-04-25 18:38:08] Parameters: ["Arlecchin","vicino al campo di concentramento","2221555222","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","5","Arlecchino"]
+[2025-04-25 18:38:09] Errore nell'aggiornamento dei dati: ERROR:  syntax error at or near "SET"
+LINE 2:         id_ristorante = $6, ristoranti SET 
+                                               ^
+[2025-04-25 18:38:15] set_ristorante.php started
+[2025-04-25 18:38:15] Current Restaurant ID (name): Arlecchino
+[2025-04-25 18:38:17] Database connected successfully
+[2025-04-25 18:38:17] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"5"}
+[2025-04-25 18:38:17] No image uploaded or upload error: 4
+[2025-04-25 18:38:17] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 18:38:17] Parameters: ["vicino al campo di concentramento","2221555222","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","5","Arlecchino"]
+[2025-04-25 18:38:18] Update successful
+[2025-04-25 18:38:18] set_ristorante.php completed
+[2025-04-25 19:21:57] set_ristorante.php started
+[2025-04-25 19:21:57] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:21:59] Database connected successfully
+[2025-04-25 19:21:59] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"5"}
+[2025-04-25 19:21:59] No image uploaded or upload error: 4
+[2025-04-25 19:21:59] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:21:59] Parameters: ["vicino al campo di concentramento","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","5","Arlecchino"]
+[2025-04-25 19:21:59] Update successful
+[2025-04-25 19:21:59] set_ristorante.php completed
+[2025-04-25 19:24:46] set_ristorante.php started
+[2025-04-25 19:24:46] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:24:48] Database connected successfully
+[2025-04-25 19:24:48] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"50"}
+[2025-04-25 19:24:48] No image uploaded or upload error: 4
+[2025-04-25 19:24:48] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:24:48] Parameters: ["vicino al campo di concentramento","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","50","Arlecchino"]
+[2025-04-25 19:24:49] Update successful
+[2025-04-25 19:24:49] set_ristorante.php completed
+[2025-04-25 19:25:18] set_ristorante.php started
+[2025-04-25 19:25:18] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:25:18] Database connected successfully
+[2025-04-25 19:25:18] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"500"}
+[2025-04-25 19:25:18] No image uploaded or upload error: 4
+[2025-04-25 19:25:18] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:25:18] Parameters: ["vicino al campo di concentramento","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","500","Arlecchino"]
+[2025-04-25 19:25:18] Update successful
+[2025-04-25 19:25:18] set_ristorante.php completed
+[2025-04-25 19:34:30] set_ristorante.php started
+[2025-04-25 19:34:30] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:34:31] Database connected successfully
+[2025-04-25 19:34:31] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di concentramento","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501"}
+[2025-04-25 19:34:31] No image uploaded or upload error: 4
+[2025-04-25 19:34:31] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:34:31] Parameters: ["vicino al campo di concentramento","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","501","Arlecchino"]
+[2025-04-25 19:34:31] Update successful
+[2025-04-25 19:34:31] set_ristorante.php completed
+[2025-04-25 19:39:33] set_ristorante.php started
+[2025-04-25 19:39:33] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:39:36] Database connected successfully
+[2025-04-25 19:39:36] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501"}
+[2025-04-25 19:39:36] No image uploaded or upload error: 4
+[2025-04-25 19:39:36] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:39:36] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","501","Arlecchino"]
+[2025-04-25 19:39:37] Update successful
+[2025-04-25 19:39:37] set_ristorante.php completed
+[2025-04-25 19:53:22] set_ristorante.php started
+[2025-04-25 19:53:22] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:53:46] Database connected successfully
+[2025-04-25 19:53:46] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:53:46] Codice IVA non valido
+[2025-04-25 19:53:46] set_ristorante.php started
+[2025-04-25 19:53:46] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:53:48] Database connected successfully
+[2025-04-25 19:53:48] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:53:48] Codice IVA non valido
+[2025-04-25 19:53:48] set_ristorante.php started
+[2025-04-25 19:53:48] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:53:50] Database connected successfully
+[2025-04-25 19:53:50] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:53:50] Codice IVA non valido
+[2025-04-25 19:53:50] set_ristorante.php started
+[2025-04-25 19:53:50] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:53:52] Database connected successfully
+[2025-04-25 19:53:52] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:53:52] Codice IVA non valido
+[2025-04-25 19:53:52] set_ristorante.php started
+[2025-04-25 19:53:52] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:53:54] Database connected successfully
+[2025-04-25 19:53:54] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:53:54] Codice IVA non valido
+[2025-04-25 19:53:54] set_ristorante.php started
+[2025-04-25 19:53:54] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:53:55] Database connected successfully
+[2025-04-25 19:53:55] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"501","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:53:55] Codice IVA non valido
+[2025-04-25 19:54:18] set_ristorante.php started
+[2025-04-25 19:54:18] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:54:20] Database connected successfully
+[2025-04-25 19:54:20] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"502","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":""}
+[2025-04-25 19:54:20] No image uploaded or upload error: 4
+[2025-04-25 19:54:20] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 19:54:20] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","502","f","f","f","",null,"Arlecchino"]
+[2025-04-25 19:54:20] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 19:55:05] set_ristorante.php started
+[2025-04-25 19:55:05] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:55:06] Database connected successfully
+[2025-04-25 19:55:06] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"502","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":""}
+[2025-04-25 19:55:06] No image uploaded or upload error: 4
+[2025-04-25 19:55:06] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 19:55:06] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","502","f","f","f","",null,"Arlecchino"]
+[2025-04-25 19:55:06] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 19:55:18] set_ristorante.php started
+[2025-04-25 19:55:18] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:55:18] Database connected successfully
+[2025-04-25 19:55:18] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"502","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-04-25 19:55:18] Codice IVA non valido
+[2025-04-25 19:56:49] set_ristorante.php started
+[2025-04-25 19:56:49] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:56:50] Database connected successfully
+[2025-04-25 19:56:50] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"502"}
+[2025-04-25 19:56:50] No image uploaded or upload error: 4
+[2025-04-25 19:56:50] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:56:50] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","502","Arlecchino"]
+[2025-04-25 19:56:50] Update successful
+[2025-04-25 19:56:50] set_ristorante.php completed
+[2025-04-25 19:57:10] set_ristorante.php started
+[2025-04-25 19:57:10] Current Restaurant ID (name): Arlecchino
+[2025-04-25 19:57:11] Database connected successfully
+[2025-04-25 19:57:11] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-04-25 19:57:11] No image uploaded or upload error: 4
+[2025-04-25 19:57:11] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 19:57:11] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","503","Arlecchino"]
+[2025-04-25 19:57:11] Update successful
+[2025-04-25 19:57:11] set_ristorante.php completed
+[2025-04-25 20:31:34] set_ristorante.php started
+[2025-04-25 20:31:34] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:31:34] Database connected successfully
+[2025-04-25 20:31:34] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":"","coverChargeInCents":null}
+[2025-04-25 20:31:34] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:31:34] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","503","f","f","f","",null,"Arlecchino"]
+[2025-04-25 20:31:34] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 20:49:12] set_ristorante.php started
+[2025-04-25 20:49:12] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:49:13] Database connected successfully
+[2025-04-25 20:49:13] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 20:49:13] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:49:13] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 20:49:13] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:49:21] set_ristorante.php started
+[2025-04-25 20:49:21] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:49:21] Database connected successfully
+[2025-04-25 20:49:21] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 20:49:21] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:49:21] Parameters: ["","","","","","t","t","t","34324324432",1500,"Arlecchino"]
+[2025-04-25 20:49:21] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:49:32] set_ristorante.php started
+[2025-04-25 20:49:32] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:49:53] Database connected successfully
+[2025-04-25 20:49:53] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 20:49:53] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:49:53] Parameters: ["","","","","","t","t","t","34324324432",1500,"Arlecchino"]
+[2025-04-25 20:49:53] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:49:53] set_ristorante.php started
+[2025-04-25 20:49:53] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:49:53] Database connected successfully
+[2025-04-25 20:49:53] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 20:49:53] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:49:53] Parameters: ["","","","","","t","t","t","34324324432",1500,"Arlecchino"]
+[2025-04-25 20:49:53] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:49:53] set_ristorante.php started
+[2025-04-25 20:49:53] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:49:54] Database connected successfully
+[2025-04-25 20:49:54] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.01","coverChargeInCents":1501}
+[2025-04-25 20:49:54] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:49:54] Parameters: ["","","","","","t","t","t","34324324432",1501,"Arlecchino"]
+[2025-04-25 20:49:54] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:51:05] set_ristorante.php started
+[2025-04-25 20:51:05] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:51:05] Database connected successfully
+[2025-04-25 20:51:05] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 20:51:05] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:51:05] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 20:51:05] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:51:42] set_ristorante.php started
+[2025-04-25 20:51:42] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:51:42] Database connected successfully
+[2025-04-25 20:51:42] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 20:51:42] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:51:42] Parameters: ["","","","","","t","t","t","34324324432",1500,"Arlecchino"]
+[2025-04-25 20:51:42] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:53:03] set_ristorante.php started
+[2025-04-25 20:53:03] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:53:03] Database connected successfully
+[2025-04-25 20:53:03] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 20:53:03] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 20:53:03] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 20:53:03] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 20:54:52] set_ristorante.php started
+[2025-04-25 20:54:52] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:54:52] Database connected successfully
+[2025-04-25 20:54:52] Form data received: {"restaurantName":"","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 20:54:52] Il nome del ristorante è obbligatorio
+[2025-04-25 20:59:47] set_ristorante.php started
+[2025-04-25 20:59:47] Current Restaurant ID (name): Arlecchino
+[2025-04-25 20:59:48] Database connected successfully
+[2025-04-25 20:59:48] Form data received: {"restaurantName":"","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 20:59:48] Il nome del ristorante è obbligatorio
+[2025-04-25 21:00:21] set_ristorante.php started
+[2025-04-25 21:00:21] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:00:22] Database connected successfully
+[2025-04-25 21:00:22] Form data received: {"restaurantName":"","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 21:00:22] Il nome del ristorante è obbligatorio
+[2025-04-25 21:03:51] set_ristorante.php started
+[2025-04-25 21:03:51] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:03:51] Database connected successfully
+[2025-04-25 21:03:51] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00","coverChargeInCents":1500}
+[2025-04-25 21:03:51] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:03:51] Parameters: ["","","","","","t","t","t","34324324432",1500,"Arlecchino"]
+[2025-04-25 21:03:51] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 21:08:56] set_ristorante.php started
+[2025-04-25 21:08:56] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:08:56] Database connected successfully
+[2025-04-25 21:08:56] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 21:08:56] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:08:56] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 21:08:56] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 21:10:17] set_ristorante.php started
+[2025-04-25 21:10:17] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:10:17] Database connected successfully
+[2025-04-25 21:10:17] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 21:10:17] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:10:17] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 21:10:17] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 21:17:11] set_ristorante.php started
+[2025-04-25 21:17:11] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:17:11] Database connected successfully
+[2025-04-25 21:17:11] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 21:17:11] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:17:11] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 21:17:11] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 21:21:35] set_ristorante.php started
+[2025-04-25 21:21:35] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:21:35] Database connected successfully
+[2025-04-25 21:21:35] Form data received: {"restaurantName":"Arlecchino","address":"","phone":"","email":"","website":"","openingHours":"","acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"5.00","coverChargeInCents":500}
+[2025-04-25 21:21:35] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:21:35] Parameters: ["","","","","","t","t","t","34324324432",500,"Arlecchino"]
+[2025-04-25 21:21:35] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $2 = ''
+[2025-04-25 21:24:09] set_ristorante.php started
+[2025-04-25 21:24:09] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:24:11] Database connected successfully
+[2025-04-25 21:24:11] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"504","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":"","coverChargeInCents":null}
+[2025-04-25 21:24:11] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:24:11] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","504","f","f","f","",null,"Arlecchino"]
+[2025-04-25 21:24:11] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 21:24:24] set_ristorante.php started
+[2025-04-25 21:24:24] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:24:25] Database connected successfully
+[2025-04-25 21:24:25] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":"","coverChargeInCents":null}
+[2025-04-25 21:24:25] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:24:25] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","505","f","f","f","",null,"Arlecchino"]
+[2025-04-25 21:24:25] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 21:24:33] set_ristorante.php started
+[2025-04-25 21:24:33] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:24:33] Database connected successfully
+[2025-04-25 21:24:33] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":"","coverChargeInCents":null}
+[2025-04-25 21:24:33] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:24:33] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","505","f","f","f","",null,"Arlecchino"]
+[2025-04-25 21:24:33] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 21:24:41] set_ristorante.php started
+[2025-04-25 21:24:41] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:24:41] Database connected successfully
+[2025-04-25 21:24:41] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":"","coverChargeInCents":null}
+[2025-04-25 21:24:41] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:24:41] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","505","f","f","f","",null,"Arlecchino"]
+[2025-04-25 21:24:41] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 21:25:09] set_ristorante.php started
+[2025-04-25 21:25:09] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:25:09] Database connected successfully
+[2025-04-25 21:25:09] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505","acceptCard":"f","acceptCash":"f","acceptAppPayments":"f","vatCode":"","coverCharge":"","coverChargeInCents":null}
+[2025-04-25 21:25:09] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    carta = $6,
+    contanti = $7,
+    pagamenti_app = $8,
+    iva = $9,
+    coperto = $10 WHERE id_ristorante = $11
+[2025-04-25 21:25:09] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","505","f","f","f","",null,"Arlecchino"]
+[2025-04-25 21:25:09] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type numeric: ""
+CONTEXT:  unnamed portal parameter $9 = ''
+[2025-04-25 21:25:58] set_ristorante.php started
+[2025-04-25 21:25:58] Current Restaurant ID (name): Arlecchino
+[2025-04-25 21:25:59] Database connected successfully
+[2025-04-25 21:25:59] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505"}
+[2025-04-25 21:25:59] No image uploaded or upload error: 4
+[2025-04-25 21:25:59] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-25 21:25:59] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","505","Arlecchino"]
+[2025-04-25 21:25:59] Update successful
+[2025-04-25 21:25:59] set_ristorante.php completed
+[2025-04-26 10:51:23] set_ristorante.php started
+[2025-04-26 10:51:23] Current Restaurant ID (name): Arlecchino
+[2025-04-26 10:51:30] Database connected successfully
+[2025-04-26 10:51:30] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"510"}
+[2025-04-26 10:51:30] No image uploaded or upload error: 4
+[2025-04-26 10:51:30] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-26 10:51:30] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","510","Arlecchino"]
+[2025-04-26 10:51:30] Update successful
+[2025-04-26 10:51:30] set_ristorante.php completed
+[2025-04-26 10:51:30] set_ristorante.php started
+[2025-04-26 10:51:30] Current Restaurant ID (name): Arlecchino
+[2025-04-26 10:51:30] Database connected successfully
+[2025-04-26 10:51:30] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"510"}
+[2025-04-26 10:51:30] No image uploaded or upload error: 4
+[2025-04-26 10:51:30] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-26 10:51:30] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","510","Arlecchino"]
+[2025-04-26 10:51:30] Update successful
+[2025-04-26 10:51:30] set_ristorante.php completed
+[2025-04-26 10:51:35] set_ristorante.php started
+[2025-04-26 10:51:35] Current Restaurant ID (name): Arlecchino
+[2025-04-26 10:51:36] Database connected successfully
+[2025-04-26 10:51:36] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555221","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"510"}
+[2025-04-26 10:51:36] No image uploaded or upload error: 4
+[2025-04-26 10:51:36] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-26 10:51:36] Parameters: ["vicino al campo di sterminio","2221555221","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","510","Arlecchino"]
+[2025-04-26 10:51:36] Update successful
+[2025-04-26 10:51:36] set_ristorante.php completed
+[2025-04-26 10:51:41] set_ristorante.php started
+[2025-04-26 10:51:41] Current Restaurant ID (name): Arlecchino
+[2025-04-26 10:51:41] Database connected successfully
+[2025-04-26 10:51:41] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555222","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"510"}
+[2025-04-26 10:51:41] No image uploaded or upload error: 4
+[2025-04-26 10:51:41] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-26 10:51:41] Parameters: ["vicino al campo di sterminio","2221555222","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","510","Arlecchino"]
+[2025-04-26 10:51:41] Update successful
+[2025-04-26 10:51:41] set_ristorante.php completed
+[2025-04-28 09:23:10] set_ristorante.php started
+[2025-04-28 09:23:10] Current Restaurant ID (name): Arlecchino
+[2025-04-28 09:23:11] Database connected successfully
+[2025-04-28 09:23:11] Form data received: {"restaurantName":"Arlecchino","address":"vicino al campo di sterminio","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"510"}
+[2025-04-28 09:23:11] No image uploaded or upload error: 4
+[2025-04-28 09:23:11] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-04-28 09:23:11] Parameters: ["vicino al campo di sterminio","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","510","Arlecchino"]
+[2025-04-28 09:23:12] Update successful
+[2025-04-28 09:23:12] set_ristorante.php completed
+[2025-05-08 08:25:41] set_ristorante.php started
+[2025-05-08 08:25:41] Current Restaurant ID (name): Arlecchino
+[2025-05-08 08:25:42] Database connected successfully
+[2025-05-08 08:25:42] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"510"}
+[2025-05-08 08:25:42] No image uploaded or upload error: 4
+[2025-05-08 08:25:42] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-08 08:25:42] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","510","Arlecchino"]
+[2025-05-08 08:25:42] Update successful
+[2025-05-08 08:25:42] set_ristorante.php completed
+[2025-05-08 08:25:50] set_ristorante.php started
+[2025-05-08 08:25:50] Current Restaurant ID (name): Arlecchino
+[2025-05-08 08:25:50] Database connected successfully
+[2025-05-08 08:25:50] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"10"}
+[2025-05-08 08:25:50] No image uploaded or upload error: 4
+[2025-05-08 08:25:50] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-08 08:25:50] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","10","Arlecchino"]
+[2025-05-08 08:25:50] Update successful
+[2025-05-08 08:25:50] set_ristorante.php completed
+[2025-05-09 13:31:06] set_ristorante.php started
+[2025-05-09 13:31:06] Current Restaurant ID (name): Arlecchino
+[2025-05-09 13:31:07] Database connected successfully
+[2025-05-09 13:31:07] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"123"}
+[2025-05-09 13:31:07] Creating upload directory: ../../Uploads/Ristoranti/
+[2025-05-09 13:31:07] No image uploaded or upload error: 4
+[2025-05-09 13:31:07] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-09 13:31:07] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","123","Arlecchino"]
+[2025-05-09 13:31:07] Update successful
+[2025-05-09 13:31:07] set_ristorante.php completed
+[2025-05-19 08:34:31] set_ristorante.php started
+[2025-05-19 08:34:31] Current Restaurant ID (name): Arlecchino
+[2025-05-19 08:34:32] Database connected successfully
+[2025-05-19 08:34:32] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"122"}
+[2025-05-19 08:34:32] Creating upload directory: ../../Uploads/Ristoranti/
+[2025-05-19 08:34:32] No image uploaded or upload error: 4
+[2025-05-19 08:34:32] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-19 08:34:32] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","122","Arlecchino"]
+[2025-05-19 08:34:32] Update successful
+[2025-05-19 08:34:32] set_ristorante.php completed
+[2025-05-19 09:12:16] set_ristorante.php started
+[2025-05-19 09:12:16] Current Restaurant ID (name): Arlecchino
+[2025-05-19 09:12:17] Database connected successfully
+[2025-05-19 09:12:17] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"12"}
+[2025-05-19 09:12:17] No image uploaded or upload error: 4
+[2025-05-19 09:12:17] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-19 09:12:17] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","12","Arlecchino"]
+[2025-05-19 09:12:17] Update successful
+[2025-05-19 09:12:17] set_ristorante.php completed
+[2025-05-19 09:45:49] set_ristorante.php started
+[2025-05-19 09:45:49] Current Restaurant ID (name): Arlecchino
+[2025-05-19 09:45:52] Database connected successfully
+[2025-05-19 09:45:52] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"124"}
+[2025-05-19 09:45:52] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    iva = $6,
+    coperto = $7,
+    carta = $8,
+    contanti = $9,
+    pagamenti_app = $10,
+    nome_wifi = $11,
+    pwd_wifi = $12,
+    mostra_pwd_wifi = $13,
+    enable_2fa = $14 WHERE id_ristorante = $15
+[2025-05-19 09:45:52] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","124","",null,"f","f","f","","","f","f","Arlecchino"]
+[2025-05-19 09:45:53] Errore nell'aggiornamento dei dati: ERROR:  column "mostra_pwd_wifi" of relation "ristoranti" does not exist
+LINE 14:     mostra_pwd_wifi = $13,
+             ^
+[2025-05-19 16:00:52] set_ristorante.php started
+[2025-05-19 16:00:52] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:00:54] Database connected successfully
+[2025-05-19 16:00:54] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"12"}
+[2025-05-19 16:00:54] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5,
+    iva = $6,
+    coperto = $7,
+    carta = $8,
+    contanti = $9,
+    pagamenti_app = $10,
+    nome_wifi = $11,
+    pwd_wifi = $12,
+    mostra_pwd_wifi = $13,
+    enable_2fa = $14 WHERE id_ristorante = $15
+[2025-05-19 16:00:54] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","12","",null,"f","f","f","","","f","f","Arlecchino"]
+[2025-05-19 16:00:54] Errore nell'aggiornamento dei dati: ERROR:  column "mostra_pwd_wifi" of relation "ristoranti" does not exist
+LINE 14:     mostra_pwd_wifi = $13,
+             ^
+[2025-05-19 16:06:30] set_ristorante.php started
+[2025-05-19 16:06:30] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:06:32] Database connected successfully
+[2025-05-19 16:06:32] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"12"}
+[2025-05-19 16:06:32] No image uploaded or upload error: 4
+[2025-05-19 16:06:32] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-19 16:06:32] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","12","Arlecchino"]
+[2025-05-19 16:06:32] Update successful
+[2025-05-19 16:06:32] set_ristorante.php completed
+[2025-05-19 16:13:11] set_ristorante.php started
+[2025-05-19 16:13:11] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:13:13] Database connected successfully
+[2025-05-19 16:13:13] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"12"}
+[2025-05-19 16:13:13] No image uploaded or upload error: 4
+[2025-05-19 16:13:13] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-19 16:13:13] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","12","Arlecchino"]
+[2025-05-19 16:13:13] Update successful
+[2025-05-19 16:13:13] set_ristorante.php completed
+[2025-05-19 16:13:18] set_ristorante.php started
+[2025-05-19 16:13:18] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:13:20] Database connected successfully
+[2025-05-19 16:13:20] Form data received: {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"14"}
+[2025-05-19 16:13:20] No image uploaded or upload error: 4
+[2025-05-19 16:13:20] Query: UPDATE ristoranti SET 
+    indirizzo = $1,
+    telefono = $2,
+    email = $3,
+    sito = $4,
+    ore = $5 WHERE id_ristorante = $6
+[2025-05-19 16:13:20] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","14","Arlecchino"]
+[2025-05-19 16:13:20] Update successful
+[2025-05-19 16:13:20] set_ristorante.php completed
+[2025-05-19 16:25:09] set_ristorante.php started
+[2025-05-19 16:25:09] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:25:10] Database connected successfully
+[2025-05-19 16:25:10] Section: general
+[2025-05-19 16:25:10] Form data received (general): {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"15"}
+[2025-05-19 16:25:10] No image uploaded or upload error: 4
+[2025-05-19 16:25:10] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-19 16:25:10] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","15","Arlecchino"]
+[2025-05-19 16:25:11] Update successful
+[2025-05-19 16:25:11] set_ristorante.php completed
+[2025-05-19 16:25:20] set_ristorante.php started
+[2025-05-19 16:25:20] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:25:22] Database connected successfully
+[2025-05-19 16:25:22] Section: payments
+[2025-05-19 16:25:22] Form data received (payments): {"acceptCard":"t","acceptCash":"t","acceptAppPayments":"t","vatCode":"34324324432","coverCharge":"15.00"}
+[2025-05-19 16:25:22] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-19 16:25:22] Parameters: ["t","t","t","34324324432",1500,"Arlecchino"]
+[2025-05-19 16:25:22] Update successful
+[2025-05-19 16:25:22] set_ristorante.php completed
+[2025-05-19 16:25:30] set_ristorante.php started
+[2025-05-19 16:25:30] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:25:32] Database connected successfully
+[2025-05-19 16:25:32] Section: wifi
+[2025-05-19 16:25:32] Form data received (wifi): {"wifiName":"du","wifiPassword":"ritorneremo","showWifiPassword":"f"}
+[2025-05-19 16:25:32] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2, mostra_pwd_wifi = $3 WHERE id_ristorante = $4
+[2025-05-19 16:25:32] Parameters: ["du","ritorneremo","f","Arlecchino"]
+[2025-05-19 16:25:33] Errore nell'aggiornamento dei dati: ERROR:  column "mostra_pwd_wifi" of relation "ristoranti" does not exist
+LINE 1: ...ATE ristoranti SET nome_wifi = $1, pwd_wifi = $2, mostra_pwd...
+                                                             ^
+[2025-05-19 16:25:59] set_ristorante.php started
+[2025-05-19 16:25:59] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:26:01] Database connected successfully
+[2025-05-19 16:26:01] Section: wifi
+[2025-05-19 16:26:01] Form data received (wifi): {"wifiName":"duxx","wifiPassword":"ritorneremo","showWifiPassword":"f"}
+[2025-05-19 16:26:01] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2, mostra_pwd_wifi = $3 WHERE id_ristorante = $4
+[2025-05-19 16:26:01] Parameters: ["duxx","ritorneremo","f","Arlecchino"]
+[2025-05-19 16:26:01] Errore nell'aggiornamento dei dati: ERROR:  column "mostra_pwd_wifi" of relation "ristoranti" does not exist
+LINE 1: ...ATE ristoranti SET nome_wifi = $1, pwd_wifi = $2, mostra_pwd...
+                                                             ^
+[2025-05-19 16:26:13] set_ristorante.php started
+[2025-05-19 16:26:13] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:26:14] Database connected successfully
+[2025-05-19 16:26:14] Section: security
+[2025-05-19 16:26:14] Form data received (security): {"currentPassword":"Arlecchino","newPassword":"5","confirmNewPassword":"5","enable2FA":"f"}
+[2025-05-19 16:26:15] Password attuale non corretta
+[2025-05-19 16:45:27] set_ristorante.php started
+[2025-05-19 16:45:27] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:45:29] Database connected successfully
+[2025-05-19 16:45:29] Section: wifi
+[2025-05-19 16:45:29] Form data received (wifi): {"wifiName":"duxx","wifiPassword":"ritorneremo","showWifiPassword":false}
+[2025-05-19 16:45:29] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2, show_wifi_password = $3 WHERE id_ristorante = $4
+[2025-05-19 16:45:29] Parameters: ["duxx","ritorneremo",false,"Arlecchino"]
+[2025-05-19 16:45:29] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type boolean: ""
+CONTEXT:  unnamed portal parameter $3 = ''
+[2025-05-19 16:46:06] set_ristorante.php started
+[2025-05-19 16:46:06] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:46:08] Database connected successfully
+[2025-05-19 16:46:08] Section: wifi
+[2025-05-19 16:46:08] Form data received (wifi): {"wifiName":"duxx","wifiPassword":"ritorneremo","showWifiPassword":true}
+[2025-05-19 16:46:08] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2, show_wifi_password = $3 WHERE id_ristorante = $4
+[2025-05-19 16:46:08] Parameters: ["duxx","ritorneremo",true,"Arlecchino"]
+[2025-05-19 16:46:08] Update successful
+[2025-05-19 16:46:08] set_ristorante.php completed
+[2025-05-19 16:58:02] set_ristorante.php started
+[2025-05-19 16:58:02] Current Restaurant ID (name): Arlecchino
+[2025-05-19 16:58:04] Database connected successfully
+[2025-05-19 16:58:04] Section: wifi
+[2025-05-19 16:58:04] Query: UPDATE ristoranti SET  WHERE id_ristorante = $1
+[2025-05-19 16:58:04] Parameters: ["Arlecchino"]
+[2025-05-19 16:58:04] Errore nell'aggiornamento dei dati: ERROR:  syntax error at or near "WHERE"
+LINE 1: UPDATE ristoranti SET  WHERE id_ristorante = $1
+                               ^
+[2025-05-19 23:05:31] set_ristorante.php started
+[2025-05-19 23:05:31] Current Restaurant ID (name): Arlecchino
+[2025-05-19 23:05:33] Database connected successfully
+[2025-05-19 23:05:33] Section: general
+[2025-05-19 23:05:33] Form data received (general): {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"13"}
+[2025-05-19 23:05:33] No image uploaded or upload error: 4
+[2025-05-19 23:05:33] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-19 23:05:33] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","13","Arlecchino"]
+[2025-05-19 23:05:33] Update successful
+[2025-05-19 23:05:33] set_ristorante.php completed
+[2025-05-19 23:05:45] set_ristorante.php started
+[2025-05-19 23:05:45] Current Restaurant ID (name): Arlecchino
+[2025-05-19 23:05:46] Database connected successfully
+[2025-05-19 23:05:46] Section: payments
+[2025-05-19 23:05:46] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"34324324432","coverCharge":"19.00"}
+[2025-05-19 23:05:46] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-19 23:05:46] Parameters: [true,true,true,"34324324432",1900,"Arlecchino"]
+[2025-05-19 23:05:47] Update successful
+[2025-05-19 23:05:47] set_ristorante.php completed
+[2025-05-19 23:05:53] set_ristorante.php started
+[2025-05-19 23:05:53] Current Restaurant ID (name): Arlecchino
+[2025-05-19 23:05:54] Database connected successfully
+[2025-05-19 23:05:54] Section: wifi
+[2025-05-19 23:05:54] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"ritorneremo"}
+[2025-05-19 23:05:54] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-19 23:05:54] Parameters: ["duxxx","ritorneremo","Arlecchino"]
+[2025-05-19 23:05:55] Update successful
+[2025-05-19 23:05:55] set_ristorante.php completed
+[2025-05-19 23:06:07] set_ristorante.php started
+[2025-05-19 23:06:07] Current Restaurant ID (name): Arlecchino
+[2025-05-19 23:06:09] Database connected successfully
+[2025-05-19 23:06:09] Section: security
+[2025-05-19 23:06:09] Form data received (security): {"currentPassword":"Arlecchino","newPassword":"5","confirmNewPassword":"5"}
+[2025-05-19 23:06:09] Query: UPDATE ristoranti SET password = $1 WHERE id_ristorante = $2
+[2025-05-19 23:06:09] Parameters: ["5","Arlecchino"]
+[2025-05-19 23:06:10] Update successful
+[2025-05-19 23:06:10] set_ristorante.php completed
+[2025-05-19 23:06:27] set_ristorante.php started
+[2025-05-19 23:06:27] Current Restaurant ID (name): Arlecchino
+[2025-05-19 23:06:29] Database connected successfully
+[2025-05-19 23:06:29] Section: security
+[2025-05-19 23:06:29] Form data received (security): {"currentPassword":"Arlecchino","newPassword":"4","confirmNewPassword":"4"}
+[2025-05-19 23:06:29] Password attuale non corretta
+[2025-05-20 00:07:37] set_ristorante.php started
+[2025-05-20 00:07:37] Current Restaurant ID (name): Arlecchino
+[2025-05-20 00:07:39] Database connected successfully
+[2025-05-20 00:07:39] Section: general
+[2025-05-20 00:07:39] Form data received (general): {"restaurantName":"Arlecchino","address":"via vittorio alfieri 2","phone":"2221555233","email":"ascaniozorzi@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"13"}
+[2025-05-20 00:07:39] No image uploaded or upload error: 4
+[2025-05-20 00:07:39] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-20 00:07:39] Parameters: ["via vittorio alfieri 2","2221555233","ascaniozorzi@gmail.com","https:\/\/web.sapp.com","13","Arlecchino"]
+[2025-05-20 00:07:39] Update successful
+[2025-05-20 00:07:39] set_ristorante.php completed
+[2025-05-20 00:07:46] set_ristorante.php started
+[2025-05-20 00:07:46] Current Restaurant ID (name): Arlecchino
+[2025-05-20 00:07:48] Database connected successfully
+[2025-05-20 00:07:48] Section: payments
+[2025-05-20 00:07:48] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"34324324432","coverCharge":"19.00"}
+[2025-05-20 00:07:48] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-20 00:07:48] Parameters: [true,true,true,"34324324432",1900,"Arlecchino"]
+[2025-05-20 00:07:48] Update successful
+[2025-05-20 00:07:48] set_ristorante.php completed
+[2025-05-20 00:07:52] set_ristorante.php started
+[2025-05-20 00:07:52] Current Restaurant ID (name): Arlecchino
+[2025-05-20 00:07:54] Database connected successfully
+[2025-05-20 00:07:54] Section: wifi
+[2025-05-20 00:07:54] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"ritorneremo"}
+[2025-05-20 00:07:54] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-20 00:07:54] Parameters: ["duxxx","ritorneremo","Arlecchino"]
+[2025-05-20 00:07:54] Update successful
+[2025-05-20 00:07:54] set_ristorante.php completed
+[2025-05-20 00:08:06] set_ristorante.php started
+[2025-05-20 00:08:06] Current Restaurant ID (name): Arlecchino
+[2025-05-20 00:08:07] Database connected successfully
+[2025-05-20 00:08:07] Section: security
+[2025-05-20 00:08:07] Form data received (security): {"currentPassword":"5","newPassword":"5","confirmNewPassword":"5"}
+[2025-05-20 00:08:08] Query: UPDATE ristoranti SET password = $1 WHERE id_ristorante = $2
+[2025-05-20 00:08:08] Parameters: ["5","Arlecchino"]
+[2025-05-20 00:08:08] Update successful
+[2025-05-20 00:08:08] set_ristorante.php completed
+[2025-05-22 11:23:37] set_ristorante.php started
+[2025-05-22 11:23:37] Current Restaurant ID (name): rist002
+[2025-05-22 11:23:39] Database connected successfully
+[2025-05-22 11:23:39] Section: payments
+[2025-05-22 11:23:39] Form data received (payments): {"acceptCard":false,"acceptCash":false,"acceptAppPayments":false,"vatCode":"89128370925","coverCharge":"12"}
+[2025-05-22 11:23:39] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-22 11:23:39] Parameters: [false,false,false,"89128370925",1200,"rist002"]
+[2025-05-22 11:23:39] Errore nell'aggiornamento dei dati: ERROR:  invalid input syntax for type boolean: ""
+CONTEXT:  unnamed portal parameter $1 = ''
+[2025-05-22 11:23:52] set_ristorante.php started
+[2025-05-22 11:23:52] Current Restaurant ID (name): rist002
+[2025-05-22 11:23:54] Database connected successfully
+[2025-05-22 11:23:54] Section: payments
+[2025-05-22 11:23:54] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"89128370925","coverCharge":"12"}
+[2025-05-22 11:23:54] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-22 11:23:54] Parameters: [true,true,true,"89128370925",1200,"rist002"]
+[2025-05-22 11:23:54] Update successful
+[2025-05-22 11:23:54] set_ristorante.php completed
+[2025-05-22 11:25:16] set_ristorante.php started
+[2025-05-22 11:25:16] Current Restaurant ID (name): rist002
+[2025-05-22 11:25:17] Database connected successfully
+[2025-05-22 11:25:17] Section: wifi
+[2025-05-22 11:25:17] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"12"}
+[2025-05-22 11:25:17] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-22 11:25:17] Parameters: ["duxxx","12","rist002"]
+[2025-05-22 11:25:17] Update successful
+[2025-05-22 11:25:17] set_ristorante.php completed
+[2025-05-22 11:25:41] set_ristorante.php started
+[2025-05-22 11:25:41] Current Restaurant ID (name): rist002
+[2025-05-22 11:25:42] Database connected successfully
+[2025-05-22 11:25:42] Section: general
+[2025-05-22 11:25:42] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505"}
+[2025-05-22 11:25:42] No image uploaded or upload error: 4
+[2025-05-22 11:25:42] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-22 11:25:42] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","505","rist002"]
+[2025-05-22 11:25:42] Update successful
+[2025-05-22 11:25:42] set_ristorante.php completed
+[2025-05-22 11:45:27] set_ristorante.php started
+[2025-05-22 11:45:27] Current Restaurant ID (name): rist002
+[2025-05-22 11:45:27] Database connected successfully
+[2025-05-22 11:45:27] Section: general
+[2025-05-22 11:45:27] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505"}
+[2025-05-22 11:45:27] No image uploaded or upload error: 4
+[2025-05-22 11:45:27] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-22 11:45:27] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","505","rist002"]
+[2025-05-22 11:45:28] Update successful
+[2025-05-22 11:45:28] set_ristorante.php completed
+[2025-05-22 11:46:13] set_ristorante.php started
+[2025-05-22 11:46:13] Current Restaurant ID (name): rist002
+[2025-05-22 11:46:14] Database connected successfully
+[2025-05-22 11:46:14] Section: general
+[2025-05-22 11:46:14] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505"}
+[2025-05-22 11:46:14] No image uploaded or upload error: 4
+[2025-05-22 11:46:14] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-22 11:46:14] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","505","rist002"]
+[2025-05-22 11:46:14] Update successful
+[2025-05-22 11:46:14] set_ristorante.php completed
+[2025-05-22 11:46:19] set_ristorante.php started
+[2025-05-22 11:46:19] Current Restaurant ID (name): rist002
+[2025-05-22 11:46:20] Database connected successfully
+[2025-05-22 11:46:20] Section: wifi
+[2025-05-22 11:46:20] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"12"}
+[2025-05-22 11:46:20] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-22 11:46:20] Parameters: ["duxxx","12","rist002"]
+[2025-05-22 11:46:21] Update successful
+[2025-05-22 11:46:21] set_ristorante.php completed
+[2025-05-22 11:51:08] set_ristorante.php started
+[2025-05-22 11:51:08] Current Restaurant ID (name): rist002
+[2025-05-22 11:51:10] Database connected successfully
+[2025-05-22 11:51:10] Section: general
+[2025-05-22 11:51:10] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505"}
+[2025-05-22 11:51:10] No image uploaded or upload error: 4
+[2025-05-22 11:51:10] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-22 11:51:10] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","505","rist002"]
+[2025-05-22 11:51:11] Update successful
+[2025-05-22 11:51:11] set_ristorante.php completed
+[2025-05-22 12:03:58] set_ristorante.php started
+[2025-05-22 12:03:58] Current Restaurant ID (name): rist002
+[2025-05-22 12:04:00] Database connected successfully
+[2025-05-22 12:04:00] Section: general
+[2025-05-22 12:04:00] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"505"}
+[2025-05-22 12:04:00] No image uploaded or upload error: 4
+[2025-05-22 12:04:00] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-22 12:04:00] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","505","rist002"]
+[2025-05-22 12:04:00] Update successful
+[2025-05-22 12:04:00] set_ristorante.php completed
+[2025-05-23 22:21:16] set_ristorante.php started
+[2025-05-23 22:21:16] Current Restaurant ID (name): rist002
+[2025-05-23 22:21:17] Database connected successfully
+[2025-05-23 22:21:17] Section: security
+[2025-05-23 22:21:17] Form data received (security): {"currentPassword":"1234567","newPassword":"1234567","confirmNewPassword":"1234567"}
+[2025-05-23 22:21:18] Password attuale non corretta
+[2025-05-23 22:21:28] set_ristorante.php started
+[2025-05-23 22:21:28] Current Restaurant ID (name): rist002
+[2025-05-23 22:21:30] Database connected successfully
+[2025-05-23 22:21:30] Section: security
+[2025-05-23 22:21:30] Form data received (security): {"currentPassword":"12345678","newPassword":"1234567","confirmNewPassword":"1234567"}
+[2025-05-23 22:21:30] Password attuale non corretta
+[2025-05-23 22:21:43] set_ristorante.php started
+[2025-05-23 22:21:43] Current Restaurant ID (name): rist002
+[2025-05-23 22:21:44] Database connected successfully
+[2025-05-23 22:21:44] Section: security
+[2025-05-23 22:21:44] Form data received (security): {"currentPassword":"1234567","newPassword":"12345678","confirmNewPassword":"12345678"}
+[2025-05-23 22:21:45] Password attuale non corretta
+[2025-05-23 22:22:11] set_ristorante.php started
+[2025-05-23 22:22:11] Current Restaurant ID (name): rist002
+[2025-05-23 22:22:13] Database connected successfully
+[2025-05-23 22:22:13] Section: security
+[2025-05-23 22:22:13] Form data received (security): {"currentPassword":"1234567","newPassword":"1234567","confirmNewPassword":"1234567"}
+[2025-05-23 22:22:13] Password attuale non corretta
+[2025-05-23 22:26:22] set_ristorante.php started
+[2025-05-23 22:26:22] Current Restaurant ID (name): rist002
+[2025-05-23 22:26:24] Database connected successfully
+[2025-05-23 22:26:24] Section: security
+[2025-05-23 22:26:24] Form data received (security): {"currentPassword":"1234567","newPassword":"1234567","confirmNewPassword":"1234567"}
+[2025-05-23 22:26:24] Password attuale non corretta
+[2025-05-23 22:26:32] set_ristorante.php started
+[2025-05-23 22:26:32] Current Restaurant ID (name): rist002
+[2025-05-23 22:26:34] Database connected successfully
+[2025-05-23 22:26:34] Section: security
+[2025-05-23 22:26:34] Form data received (security): {"currentPassword":"666666","newPassword":"1234567","confirmNewPassword":"1234567"}
+[2025-05-23 22:26:34] Password attuale non corretta
+[2025-05-23 22:27:47] set_ristorante.php started
+[2025-05-23 22:27:47] Current Restaurant ID (name): rist002
+[2025-05-23 22:27:49] Database connected successfully
+[2025-05-23 22:27:49] Section: general
+[2025-05-23 22:27:49] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:27:49] No image uploaded or upload error: 4
+[2025-05-23 22:27:49] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:27:49] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:27:49] Update successful
+[2025-05-23 22:27:49] set_ristorante.php completed
+[2025-05-23 22:27:49] set_ristorante.php started
+[2025-05-23 22:27:49] Current Restaurant ID (name): rist002
+[2025-05-23 22:27:51] Database connected successfully
+[2025-05-23 22:27:51] Section: general
+[2025-05-23 22:27:51] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:27:51] No image uploaded or upload error: 4
+[2025-05-23 22:27:51] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:27:51] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:27:51] Update successful
+[2025-05-23 22:27:51] set_ristorante.php completed
+[2025-05-23 22:27:59] set_ristorante.php started
+[2025-05-23 22:27:59] Current Restaurant ID (name): rist002
+[2025-05-23 22:28:01] Database connected successfully
+[2025-05-23 22:28:01] Section: payments
+[2025-05-23 22:28:01] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"89128370925","coverCharge":"15.00"}
+[2025-05-23 22:28:01] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-23 22:28:01] Parameters: [true,true,true,"89128370925",1500,"rist002"]
+[2025-05-23 22:28:01] Update successful
+[2025-05-23 22:28:01] set_ristorante.php completed
+[2025-05-23 22:28:01] set_ristorante.php started
+[2025-05-23 22:28:01] Current Restaurant ID (name): rist002
+[2025-05-23 22:28:03] Database connected successfully
+[2025-05-23 22:28:03] Section: payments
+[2025-05-23 22:28:03] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"89128370925","coverCharge":"15.00"}
+[2025-05-23 22:28:03] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-23 22:28:03] Parameters: [true,true,true,"89128370925",1500,"rist002"]
+[2025-05-23 22:28:03] Update successful
+[2025-05-23 22:28:03] set_ristorante.php completed
+[2025-05-23 22:28:11] set_ristorante.php started
+[2025-05-23 22:28:11] Current Restaurant ID (name): rist002
+[2025-05-23 22:28:13] Database connected successfully
+[2025-05-23 22:28:13] Section: wifi
+[2025-05-23 22:28:13] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"123"}
+[2025-05-23 22:28:13] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-23 22:28:13] Parameters: ["duxxx","123","rist002"]
+[2025-05-23 22:28:13] Update successful
+[2025-05-23 22:28:13] set_ristorante.php completed
+[2025-05-23 22:28:13] set_ristorante.php started
+[2025-05-23 22:28:13] Current Restaurant ID (name): rist002
+[2025-05-23 22:28:15] Database connected successfully
+[2025-05-23 22:28:15] Section: wifi
+[2025-05-23 22:28:15] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"123"}
+[2025-05-23 22:28:15] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-23 22:28:15] Parameters: ["duxxx","123","rist002"]
+[2025-05-23 22:28:15] Update successful
+[2025-05-23 22:28:15] set_ristorante.php completed
+[2025-05-23 22:31:59] set_ristorante.php started
+[2025-05-23 22:31:59] Current Restaurant ID (name): rist002
+[2025-05-23 22:32:01] Database connected successfully
+[2025-05-23 22:32:01] Section: security
+[2025-05-23 22:32:12] set_ristorante.php started
+[2025-05-23 22:32:12] Current Restaurant ID (name): rist002
+[2025-05-23 22:32:13] Database connected successfully
+[2025-05-23 22:32:13] Section: general
+[2025-05-23 22:32:13] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:32:13] No image uploaded or upload error: 4
+[2025-05-23 22:32:13] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:32:13] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:32:13] Update successful
+[2025-05-23 22:32:13] set_ristorante.php completed
+[2025-05-23 22:32:13] set_ristorante.php started
+[2025-05-23 22:32:13] Current Restaurant ID (name): rist002
+[2025-05-23 22:32:15] Database connected successfully
+[2025-05-23 22:32:15] Section: general
+[2025-05-23 22:32:15] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:32:15] No image uploaded or upload error: 4
+[2025-05-23 22:32:15] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:32:15] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:32:15] Update successful
+[2025-05-23 22:32:15] set_ristorante.php completed
+[2025-05-23 22:33:24] set_ristorante.php started
+[2025-05-23 22:33:24] Current Restaurant ID (name): rist002
+[2025-05-23 22:33:26] Database connected successfully
+[2025-05-23 22:33:26] Section: security
+[2025-05-23 22:35:58] set_ristorante.php started
+[2025-05-23 22:35:58] Current Restaurant ID (name): rist002
+[2025-05-23 22:36:00] Database connected successfully
+[2025-05-23 22:36:00] Section: security
+[2025-05-23 22:42:54] set_ristorante.php started
+[2025-05-23 22:42:54] Current Restaurant ID: rist002
+[2025-05-23 22:42:56] Database connected successfully
+[2025-05-23 22:42:56] Section: security
+[2025-05-23 22:42:56] Dati ricevuti: currentPassword=1234567, newPassword=1234567, restaurant_id=rist002
+[2025-05-23 22:42:56] Errore query: ERROR:  column "id" does not exist
+LINE 1: SELECT password FROM ristoranti WHERE id = $1
+                                              ^
+[2025-05-23 22:44:55] set_ristorante.php started
+[2025-05-23 22:44:55] Current Restaurant ID: rist002
+[2025-05-23 22:44:56] Database connected successfully
+[2025-05-23 22:44:56] Section: security
+[2025-05-23 22:44:56] Dati ricevuti: currentPassword=1234567, newPassword=1234567, restaurant_id=rist002
+[2025-05-23 22:44:56] Errore query: ERROR:  column "id" does not exist
+LINE 1: SELECT password FROM ristoranti WHERE id = $1
+                                              ^
+[2025-05-23 22:50:24] set_ristorante.php started
+[2025-05-23 22:50:24] Current Restaurant ID (name): rist002
+[2025-05-23 22:50:26] Database connected successfully
+[2025-05-23 22:50:26] Section: general
+[2025-05-23 22:50:26] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:50:26] No image uploaded or upload error: 4
+[2025-05-23 22:50:26] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:50:26] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:50:26] Update successful
+[2025-05-23 22:50:26] set_ristorante.php completed
+[2025-05-23 22:50:26] set_ristorante.php started
+[2025-05-23 22:50:26] Current Restaurant ID (name): rist002
+[2025-05-23 22:50:28] Database connected successfully
+[2025-05-23 22:50:28] Section: general
+[2025-05-23 22:50:28] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:50:28] No image uploaded or upload error: 4
+[2025-05-23 22:50:28] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:50:28] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:50:28] Update successful
+[2025-05-23 22:50:28] set_ristorante.php completed
+[2025-05-23 22:50:31] set_ristorante.php started
+[2025-05-23 22:50:31] Current Restaurant ID (name): rist002
+[2025-05-23 22:50:33] Database connected successfully
+[2025-05-23 22:50:33] Section: payments
+[2025-05-23 22:50:33] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"89128370925","coverCharge":"15.00"}
+[2025-05-23 22:50:33] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-23 22:50:33] Parameters: [true,true,true,"89128370925",1500,"rist002"]
+[2025-05-23 22:50:33] Update successful
+[2025-05-23 22:50:33] set_ristorante.php completed
+[2025-05-23 22:50:33] set_ristorante.php started
+[2025-05-23 22:50:33] Current Restaurant ID (name): rist002
+[2025-05-23 22:50:35] Database connected successfully
+[2025-05-23 22:50:35] Section: payments
+[2025-05-23 22:50:35] Form data received (payments): {"acceptCard":true,"acceptCash":true,"acceptAppPayments":true,"vatCode":"89128370925","coverCharge":"15.00"}
+[2025-05-23 22:50:35] Query: UPDATE ristoranti SET carta = $1, contanti = $2, pagamenti_app = $3, iva = $4, coperto = $5 WHERE id_ristorante = $6
+[2025-05-23 22:50:35] Parameters: [true,true,true,"89128370925",1500,"rist002"]
+[2025-05-23 22:50:35] Update successful
+[2025-05-23 22:50:35] set_ristorante.php completed
+[2025-05-23 22:50:38] set_ristorante.php started
+[2025-05-23 22:50:38] Current Restaurant ID (name): rist002
+[2025-05-23 22:50:39] Database connected successfully
+[2025-05-23 22:50:39] Section: wifi
+[2025-05-23 22:50:39] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"123"}
+[2025-05-23 22:50:39] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-23 22:50:39] Parameters: ["duxxx","123","rist002"]
+[2025-05-23 22:50:40] Update successful
+[2025-05-23 22:50:40] set_ristorante.php completed
+[2025-05-23 22:50:40] set_ristorante.php started
+[2025-05-23 22:50:40] Current Restaurant ID (name): rist002
+[2025-05-23 22:50:41] Database connected successfully
+[2025-05-23 22:50:41] Section: wifi
+[2025-05-23 22:50:41] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"123"}
+[2025-05-23 22:50:41] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-23 22:50:41] Parameters: ["duxxx","123","rist002"]
+[2025-05-23 22:50:41] Update successful
+[2025-05-23 22:50:41] set_ristorante.php completed
+[2025-05-23 22:50:59] set_ristorante.php started
+[2025-05-23 22:50:59] Current Restaurant ID (name): rist002
+[2025-05-23 22:51:00] Database connected successfully
+[2025-05-23 22:51:00] Section: security
+[2025-05-23 22:51:00] Dati ricevuti: currentPassword=1234567, newPassword=1234567, restaurant_id=rist002
+[2025-05-23 22:51:01] Errore query: ERROR:  column "id" does not exist
+LINE 1: SELECT id, password FROM ristoranti WHERE id_ristorante = $1
+               ^
+[2025-05-23 22:56:56] set_ristorante.php started
+[2025-05-23 22:56:56] Current Restaurant ID (name): rist002
+[2025-05-23 22:56:57] Database connected successfully
+[2025-05-23 22:56:57] Section: security
+[2025-05-23 22:56:57] Dati ricevuti: currentPassword=1234567, newPassword=1234567, restaurant_id=rist002
+[2025-05-23 22:56:57] Password salvata: $2y$10$n6ctrWTmRwJLFF8AKTYmAuNhU1.sHHyhV1nvs6qhzwLw5SdhpTiJu, ID numerico: 
+[2025-05-23 22:56:57] Nuova password hashata generata
+[2025-05-23 22:56:58] Errore aggiornamento password: ERROR:  column "id" does not exist
+LINE 1: UPDATE ristoranti SET password = $1 WHERE id = $2
+                                                  ^
+[2025-05-23 22:58:08] set_ristorante.php started
+[2025-05-23 22:58:08] Current Restaurant ID (name): rist002
+[2025-05-23 22:58:10] Database connected successfully
+[2025-05-23 22:58:10] Section: security
+[2025-05-23 22:58:10] Dati ricevuti: currentPassword=1234567, newPassword=1234567, restaurant_id=rist002
+[2025-05-23 22:58:10] Password salvata: $2y$10$n6ctrWTmRwJLFF8AKTYmAuNhU1.sHHyhV1nvs6qhzwLw5SdhpTiJu
+[2025-05-23 22:58:10] Nuova password hashata generata
+[2025-05-23 22:58:10] Password aggiornata per id_ristorante: rist002
+[2025-05-23 22:58:15] set_ristorante.php started
+[2025-05-23 22:58:15] Current Restaurant ID (name): rist002
+[2025-05-23 22:58:17] Database connected successfully
+[2025-05-23 22:58:17] Section: general
+[2025-05-23 22:58:17] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:58:17] No image uploaded or upload error: 4
+[2025-05-23 22:58:17] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:58:17] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:58:17] Update successful
+[2025-05-23 22:58:17] set_ristorante.php completed
+[2025-05-23 22:58:17] set_ristorante.php started
+[2025-05-23 22:58:17] Current Restaurant ID (name): rist002
+[2025-05-23 22:58:18] Database connected successfully
+[2025-05-23 22:58:18] Section: general
+[2025-05-23 22:58:18] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-23 22:58:18] No image uploaded or upload error: 4
+[2025-05-23 22:58:18] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-23 22:58:18] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-23 22:58:19] Update successful
+[2025-05-23 22:58:19] set_ristorante.php completed
+[2025-05-23 22:58:22] set_ristorante.php started
+[2025-05-23 22:58:22] Current Restaurant ID (name): rist002
+[2025-05-23 22:58:24] Database connected successfully
+[2025-05-23 22:58:24] Section: wifi
+[2025-05-23 22:58:24] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"123"}
+[2025-05-23 22:58:24] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-23 22:58:24] Parameters: ["duxxx","123","rist002"]
+[2025-05-23 22:58:24] Update successful
+[2025-05-23 22:58:24] set_ristorante.php completed
+[2025-05-23 22:58:24] set_ristorante.php started
+[2025-05-23 22:58:24] Current Restaurant ID (name): rist002
+[2025-05-23 22:58:25] Database connected successfully
+[2025-05-23 22:58:25] Section: wifi
+[2025-05-23 22:58:25] Form data received (wifi): {"wifiName":"duxxx","wifiPassword":"123"}
+[2025-05-23 22:58:25] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-05-23 22:58:25] Parameters: ["duxxx","123","rist002"]
+[2025-05-23 22:58:26] Update successful
+[2025-05-23 22:58:26] set_ristorante.php completed
+[2025-05-24 00:03:35] set_ristorante.php started
+[2025-05-24 00:03:35] Current Restaurant ID (name): rist002
+[2025-05-24 00:03:40] Database connected successfully
+[2025-05-24 00:03:40] Section: security
+[2025-05-24 00:03:40] Dati ricevuti: currentPassword=1234567, newPassword=1234567, restaurant_id=rist002
+[2025-05-24 00:03:41] Password salvata: $2y$10$J1mnh7NMCdvO9whO5FcOiuyi8N3Intzv5yI0t7GIExkGMfzlxnkeO
+[2025-05-24 00:03:41] Nuova password hashata generata
+[2025-05-24 00:03:42] Password aggiornata per id_ristorante: rist002
+[2025-05-26 08:17:55] set_ristorante.php started
+[2025-05-26 08:17:55] Current Restaurant ID (name): rist002
+[2025-05-26 08:17:56] Database connected successfully
+[2025-05-26 08:17:56] Section: general
+[2025-05-26 08:17:56] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-26 08:17:56] No image uploaded or upload error: 4
+[2025-05-26 08:17:56] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-26 08:17:56] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-26 08:17:56] Update successful
+[2025-05-26 08:17:56] set_ristorante.php completed
+[2025-05-26 08:17:56] set_ristorante.php started
+[2025-05-26 08:17:56] Current Restaurant ID (name): rist002
+[2025-05-26 08:17:56] Database connected successfully
+[2025-05-26 08:17:56] Section: general
+[2025-05-26 08:17:56] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-26 08:17:56] No image uploaded or upload error: 4
+[2025-05-26 08:17:56] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-26 08:17:56] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-26 08:17:56] Update successful
+[2025-05-26 08:17:56] set_ristorante.php completed
+[2025-05-26 08:57:42] set_ristorante.php started
+[2025-05-26 08:57:42] Current Restaurant ID (name): rist002
+[2025-05-26 08:57:44] Database connected successfully
+[2025-05-26 08:57:44] Section: general
+[2025-05-26 08:57:44] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-26 08:57:44] No image uploaded or upload error: 4
+[2025-05-26 08:57:44] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-26 08:57:44] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-26 08:57:44] Update successful
+[2025-05-26 08:57:44] set_ristorante.php completed
+[2025-05-26 08:57:44] set_ristorante.php started
+[2025-05-26 08:57:44] Current Restaurant ID (name): rist002
+[2025-05-26 08:57:46] Database connected successfully
+[2025-05-26 08:57:46] Section: general
+[2025-05-26 08:57:46] Form data received (general): {"restaurantName":"rist002","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-26 08:57:46] No image uploaded or upload error: 4
+[2025-05-26 08:57:46] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-26 08:57:46] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","rist002"]
+[2025-05-26 08:57:46] Update successful
+[2025-05-26 08:57:46] set_ristorante.php completed
+[2025-05-31 09:29:02] set_ristorante.php started
+[2025-05-31 09:29:02] Current Restaurant ID (name): sanshi
+[2025-05-31 09:29:04] Database connected successfully
+[2025-05-31 09:29:04] Section: general
+[2025-05-31 09:29:04] Form data received (general): {"restaurantName":"sanshi","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-31 09:29:04] No image uploaded or upload error: 4
+[2025-05-31 09:29:04] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-31 09:29:04] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","sanshi"]
+[2025-05-31 09:29:04] Update successful
+[2025-05-31 09:29:04] set_ristorante.php completed
+[2025-05-31 09:29:04] set_ristorante.php started
+[2025-05-31 09:29:04] Current Restaurant ID (name): sanshi
+[2025-05-31 09:29:04] Database connected successfully
+[2025-05-31 09:29:04] Section: general
+[2025-05-31 09:29:04] Form data received (general): {"restaurantName":"sanshi","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"503"}
+[2025-05-31 09:29:04] No image uploaded or upload error: 4
+[2025-05-31 09:29:04] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-31 09:29:04] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","503","sanshi"]
+[2025-05-31 09:29:05] Update successful
+[2025-05-31 09:29:05] set_ristorante.php completed
+[2025-05-31 09:29:13] set_ristorante.php started
+[2025-05-31 09:29:13] Current Restaurant ID (name): sanshi
+[2025-05-31 09:29:14] Database connected successfully
+[2025-05-31 09:29:14] Section: general
+[2025-05-31 09:29:14] Form data received (general): {"restaurantName":"sanshi","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"12"}
+[2025-05-31 09:29:14] No image uploaded or upload error: 4
+[2025-05-31 09:29:14] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-31 09:29:14] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","12","sanshi"]
+[2025-05-31 09:29:14] Update successful
+[2025-05-31 09:29:14] set_ristorante.php completed
+[2025-05-31 09:29:14] set_ristorante.php started
+[2025-05-31 09:29:14] Current Restaurant ID (name): sanshi
+[2025-05-31 09:29:15] Database connected successfully
+[2025-05-31 09:29:15] Section: general
+[2025-05-31 09:29:15] Form data received (general): {"restaurantName":"sanshi","address":"via duce 3","phone":"3723711250","email":"leonardogallon07@gmail.com","website":"https:\/\/web.sapp.com","openingHours":"12"}
+[2025-05-31 09:29:15] No image uploaded or upload error: 4
+[2025-05-31 09:29:15] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-05-31 09:29:15] Parameters: ["via duce 3","3723711250","leonardogallon07@gmail.com","https:\/\/web.sapp.com","12","sanshi"]
+[2025-05-31 09:29:15] Update successful
+[2025-05-31 09:29:15] set_ristorante.php completed
+[2025-06-05 21:55:44] set_ristorante.php started
+[2025-06-05 21:55:44] Current Restaurant ID (name): buffalo
+[2025-06-05 21:55:44] Database connected successfully
+[2025-06-05 21:55:44] Section: general
+[2025-06-05 21:55:44] Form data received (general): {"restaurantName":"buffalo","address":"Via Roma 12","phone":"3703705624","email":"buffalo@gmail.com","website":"https:\/\/buffalo.com\/","openingHours":"12:00 - 00:00"}
+[2025-06-05 21:55:44] No image uploaded or upload error: 4
+[2025-06-05 21:55:44] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-06-05 21:55:44] Parameters: ["Via Roma 12","3703705624","buffalo@gmail.com","https:\/\/buffalo.com\/","12:00 - 00:00","buffalo"]
+[2025-06-05 21:55:44] Update successful
+[2025-06-05 21:55:44] set_ristorante.php completed
+[2025-06-05 21:55:44] set_ristorante.php started
+[2025-06-05 21:55:44] Current Restaurant ID (name): buffalo
+[2025-06-05 21:55:45] Database connected successfully
+[2025-06-05 21:55:45] Section: general
+[2025-06-05 21:55:45] Form data received (general): {"restaurantName":"buffalo","address":"Via Roma 12","phone":"3703705624","email":"buffalo@gmail.com","website":"https:\/\/buffalo.com\/","openingHours":"12:00 - 00:00"}
+[2025-06-05 21:55:45] No image uploaded or upload error: 4
+[2025-06-05 21:55:45] Query: UPDATE ristoranti SET indirizzo = $1, telefono = $2, email = $3, sito = $4, ore = $5 WHERE id_ristorante = $6
+[2025-06-05 21:55:45] Parameters: ["Via Roma 12","3703705624","buffalo@gmail.com","https:\/\/buffalo.com\/","12:00 - 00:00","buffalo"]
+[2025-06-05 21:55:45] Update successful
+[2025-06-05 21:55:45] set_ristorante.php completed
+[2025-06-05 21:56:31] set_ristorante.php started
+[2025-06-05 21:56:31] Current Restaurant ID (name): buffalo
+[2025-06-05 21:56:31] Database connected successfully
+[2025-06-05 21:56:31] Section: wifi
+[2025-06-05 21:56:31] Form data received (wifi): {"wifiName":"buffalo","wifiPassword":"buffalo"}
+[2025-06-05 21:56:31] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-06-05 21:56:31] Parameters: ["buffalo","buffalo","buffalo"]
+[2025-06-05 21:56:31] Update successful
+[2025-06-05 21:56:31] set_ristorante.php completed
+[2025-06-05 21:56:31] set_ristorante.php started
+[2025-06-05 21:56:31] Current Restaurant ID (name): buffalo
+[2025-06-05 21:56:31] Database connected successfully
+[2025-06-05 21:56:31] Section: wifi
+[2025-06-05 21:56:31] Form data received (wifi): {"wifiName":"buffalo","wifiPassword":"buffalo"}
+[2025-06-05 21:56:31] Query: UPDATE ristoranti SET nome_wifi = $1, pwd_wifi = $2 WHERE id_ristorante = $3
+[2025-06-05 21:56:31] Parameters: ["buffalo","buffalo","buffalo"]
+[2025-06-05 21:56:31] Update successful
+[2025-06-05 21:56:31] set_ristorante.php completed

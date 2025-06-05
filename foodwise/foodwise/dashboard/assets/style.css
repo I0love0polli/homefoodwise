@@ -1,0 +1,360 @@
+body{
+    background-color: #121212;
+}
+
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+/* Definisce lo stile della sidebar laterale */
+.sidebar {
+    width: 350px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px !important;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s ease, padding 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.collapsed {
+    width: 80px;
+    padding: 10px;
+}
+
+/* Definisce lo stile del contenuto principale */
+.content {
+    margin-left: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #121212;
+    width: calc(100% - 350px);
+    transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+@media (max-width: 390px) {
+    .content{
+        margin-left: 390px !important;
+    }
+
+    .sidebar{
+        width: 390px !important;
+        padding: 20px !important;
+    }
+
+    .content.collapsed {
+        margin-left: 80px !important;
+        width: calc(100% - 80px) !important;
+    }
+
+    .sidebar.collapsed {
+        width: 80px !important;
+        padding: 20px !important;
+    }
+}
+
+.content.collapsed {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+}
+
+/* Imposta lo stile di base del body */
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* Stile dei link di navigazione */
+.nav-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    justify-content: flex-start;
+    text-decoration: none;
+    height: 44px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar.collapsed .nav-link {
+    justify-content: center;
+    padding: 10px 0;
+    height: 44px;
+}
+
+/* Definisce le variabili CSS per i colori */
+:root {
+    --active-color: #00FF7F;
+    --active-color-transparent: rgba(0, 255, 127, 0.2);
+}
+
+.nav-link:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.nav-link.active {
+    background-color: var(--active-color-transparent);
+    color: var(--active-color);
+    border-radius: 10px;
+}
+
+.nav-link.active .nav-icon,
+.nav-link.active .nav-text {
+    color: var(--active-color);
+    font-weight: 700;
+}
+
+/* Stile per la sottopagina attiva (es. Cucina) */
+.nav-link.active-sub {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-link.active-sub .nav-icon,
+.nav-link.active-sub .nav-text {
+    color: white;
+    font-weight: 600;
+}
+
+/* Stile delle icone di navigazione */
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.sidebar.collapsed .nav-icon {
+    margin-right: 0;
+}
+
+/* Stile del testo nei link di navigazione */
+.nav-text {
+    font-weight: 500;
+}
+
+/* Stile dell'icona del logo */
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #00FF7F;
+}
+
+/* Stile dell'intestazione della sidebar */
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    min-height: 45px;
+}
+
+.sidebar-header.collapsed .restourant-name,
+.sidebar-header.collapsed .logo-icon {
+    display: none;
+}
+
+/* Stile dell'icona di collasso/espansione */
+.collapse-icon {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-header.collapsed .collapse-icon {
+    transform: rotate(180deg);
+    position: static;
+    margin: 0 auto;
+}
+
+/* Contenitore della navigazione */
+.nav-container {
+    flex-grow: 1;
+}
+
+.sidebar.collapsed .user-image-circle-sidebar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+            background-color: rgba(0, 255, 127, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #00FF7F;
+            position: relative;
+            overflow: hidden;
+}
+
+.nav-link .nav-text {
+    transition: opacity 0.3s ease;
+}
+
+.sidebar.collapsed .nav-link .nav-text {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    margin-right: 0;
+}
+
+/* Stile del profilo utente */
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    position: sticky;
+    bottom: 20px;
+    padding-left: 5px;
+    transition: padding 0.3s ease;
+}
+
+.user-profile.collapsed {
+    padding: 0;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: width 0.3s ease, height 0.3s ease, margin-right 0.3s ease;
+}
+
+.user-profile.collapsed .profile-picture {
+    margin-right: 0;
+}
+
+.user-profile .profile-name {
+    display: flex;
+    margin-left: 10px !important;
+    font-size: 18px;
+}
+
+.user-profile.collapsed .profile-name {
+    display: none;
+}
+
+/* Stile del divisore della sidebar */
+.sidebar-divider {
+    border: 0;
+    height: 2px;
+    background-color: #e5e5e5;
+    margin: 10px 0;
+}
+
+/* Stile dei contenitori delle pagine */
+.home-container,
+.analitiche-container,
+.menu-container,
+.tavoli-container,
+.ordini-container,
+.pagamenti-container,
+.personale-container,
+.impostazioni-container,
+.cucina-container,
+.disposizione-container {
+    background-color: #121212;
+    color: white;
+}
+
+/* Stile del nome del ristorante */
+.restourant-name {
+    font-size: 25px !important;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.restaurant-info-card {
+    background-color: #1e1e1e;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(18, 18, 18, 0.5);
+    border-radius: 15px;
+    color: white;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.nav-item {
+    padding-top: 12px;
+}
+
+/* Stili per personalizzare la scrollbar in WebKit (Chrome, Edge, Safari) */
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #1e1e1e;
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #2a2a2a;
+}
+
+/* Stili per Firefox */
+.content {
+    scrollbar-width: thin;
+    scrollbar-color: #1e1e1e transparent;
+}
+
+/* Stile per il bottone Vista Cucina/Disposizione */
+.btn-kitchen-view {
+    display: inline-block;
+    background-color: var(--active-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-kitchen-view:hover {
+    background-color: #00cc66;
+    color: white;
+}
+
+
+/* Stile per il bottone Vista Cucina/Disposizione */
+.btn-grid-view {
+    display: inline-block;
+    background-color: var(--active-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-grid-view:hover {
+    background-color: #00cc66;
+    color: white;
+}

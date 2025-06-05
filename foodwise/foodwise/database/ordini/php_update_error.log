@@ -1,0 +1,635 @@
+[03-Jun-2025 17:48:33 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 17:48:33 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 6
+    [id_ordine] => 4
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 17:48:33 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 17:48:33 Europe/Berlin] Azione: update_status_item, ID Ordine: 4, ID Dettaglio: 6, Nuovo Stato: ready
+[03-Jun-2025 17:48:33 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT do.id_ordine FROM public.dettagli_ordine AS do JOIN p...
+               ^ in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 95
+[03-Jun-2025 17:48:33 Europe/Berlin] Exception in update_ordine_stato.php: Dettaglio ordine #6 non trovato, non appartenente all'ordine #4 o al ristorante.
+[03-Jun-2025 17:49:17 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 17:49:17 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 6
+    [id_ordine] => 4
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 17:49:17 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 17:49:18 Europe/Berlin] Azione: update_status_item, ID Ordine: 4, ID Dettaglio: 6, Nuovo Stato: ready
+[03-Jun-2025 17:49:18 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT do.id_ordine FROM public.dettagli_ordine AS do JOIN p...
+               ^ in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 95
+[03-Jun-2025 17:49:18 Europe/Berlin] Exception in update_ordine_stato.php: Dettaglio ordine #6 non trovato, non appartenente all'ordine #4 o al ristorante.
+[03-Jun-2025 17:56:50 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 17:56:50 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 7
+    [id_ordine] => 4
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 17:56:50 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 17:56:52 Europe/Berlin] Azione: update_status_item, ID Ordine: 4, ID Dettaglio: 7, Nuovo Stato: ready
+[03-Jun-2025 17:56:52 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT do.id_ordine FROM public.dettagli_ordine AS do JOIN p...
+               ^ in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 95
+[03-Jun-2025 17:56:52 Europe/Berlin] Exception in update_ordine_stato.php: Dettaglio ordine #7 non trovato, non appartenente all'ordine #4 o al ristorante.
+[03-Jun-2025 17:56:52 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 17:56:52 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 6
+    [id_ordine] => 4
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 17:56:52 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 17:56:52 Europe/Berlin] Azione: update_status_item, ID Ordine: 4, ID Dettaglio: 6, Nuovo Stato: ready
+[03-Jun-2025 17:56:52 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT do.id_ordine FROM public.dettagli_ordine AS do JOIN p...
+               ^ in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 95
+[03-Jun-2025 17:56:52 Europe/Berlin] Exception in update_ordine_stato.php: Dettaglio ordine #6 non trovato, non appartenente all'ordine #4 o al ristorante.
+[03-Jun-2025 18:00:01 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 18:00:01 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 6
+    [id_ordine] => 4
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 18:00:01 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 18:00:02 Europe/Berlin] Azione: update_status_item, ID Ordine: 4, ID Dettaglio: 6, Nuovo Stato: ready
+[03-Jun-2025 18:00:02 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT do.id_ordine FROM public.dettagli_ordine AS do JOIN p...
+               ^ in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 95
+[03-Jun-2025 18:00:02 Europe/Berlin] Exception in update_ordine_stato.php: Dettaglio ordine #6 non trovato, non appartenente all'ordine #4 o al ristorante.
+[03-Jun-2025 18:03:09 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 18:03:09 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 18:03:09 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 18:03:09 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: ready
+[03-Jun-2025 18:03:09 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[03-Jun-2025 18:03:10 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[03-Jun-2025 18:03:10 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[03-Jun-2025 18:04:39 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 18:04:39 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 2
+    [id_ordine] => 1
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 18:04:39 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 18:04:40 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 2, Nuovo Stato: ready
+[03-Jun-2025 18:04:40 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=2, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[03-Jun-2025 18:04:40 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #2 trovato, appartiene a ordine #1.
+[03-Jun-2025 18:04:40 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #2 appartiene correttamente all'ordine #1.
+[03-Jun-2025 18:21:24 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 18:21:24 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[03-Jun-2025 18:21:24 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 18:21:25 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: preparing
+[03-Jun-2025 18:21:25 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[03-Jun-2025 18:21:25 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[03-Jun-2025 18:21:25 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[03-Jun-2025 18:21:45 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[03-Jun-2025 18:21:45 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => ready
+)
+
+[03-Jun-2025 18:21:45 Europe/Berlin] ID Ristorante sessione: sanshi
+[03-Jun-2025 18:21:45 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: ready
+[03-Jun-2025 18:21:45 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[03-Jun-2025 18:21:45 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[03-Jun-2025 18:21:45 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[04-Jun-2025 08:18:08 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:18:08 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 08:18:08 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:18:08 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 08:18:08 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 08:18:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php(29): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 08:19:00 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:19:00 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 08:19:00 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:19:00 Europe/Berlin] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name &quot;aws-0-eu-central-1.pooler.supabase.com&quot; to address: Unknown host in C:\xampp\htdocs\foodwise\database\connection.php on line 11
+[04-Jun-2025 08:19:00 Europe/Berlin] PHP Deprecated:  pg_last_error(): Automatic fetching of PostgreSQL connection is deprecated in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 08:19:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: No PostgreSQL connection opened yet in C:\xampp\htdocs\foodwise\database\connection.php:14
+Stack trace:
+#0 C:\xampp\htdocs\foodwise\database\connection.php(14): pg_last_error()
+#1 C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php(29): connessione()
+#2 {main}
+  thrown in C:\xampp\htdocs\foodwise\database\connection.php on line 14
+[04-Jun-2025 08:19:44 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:19:44 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 08:19:44 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:19:45 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: preparing
+[04-Jun-2025 08:19:46 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 08:19:46 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[04-Jun-2025 08:19:46 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[04-Jun-2025 08:19:48 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:19:48 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 08:19:48 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:19:49 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: preparing
+[04-Jun-2025 08:19:50 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 08:19:50 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[04-Jun-2025 08:19:50 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[04-Jun-2025 08:19:52 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:19:52 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 2
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 08:19:52 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:19:52 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 2, Nuovo Stato: preparing
+[04-Jun-2025 08:19:52 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=2, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 08:19:52 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #2 trovato, appartiene a ordine #1.
+[04-Jun-2025 08:19:52 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #2 appartiene correttamente all'ordine #1.
+[04-Jun-2025 08:45:45 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:45:45 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 08:45:45 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:45:48 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: ready
+[04-Jun-2025 08:45:49 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 08:45:49 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[04-Jun-2025 08:45:49 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[04-Jun-2025 08:46:00 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 08:46:00 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 2
+    [id_ordine] => 1
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 08:46:00 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 08:46:01 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 2, Nuovo Stato: ready
+[04-Jun-2025 08:46:02 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=2, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 08:46:02 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #2 trovato, appartiene a ordine #1.
+[04-Jun-2025 08:46:02 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #2 appartiene correttamente all'ordine #1.
+[04-Jun-2025 09:11:35 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:11:35 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 09:11:35 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:11:37 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: preparing
+[04-Jun-2025 09:11:38 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 09:11:38 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[04-Jun-2025 09:11:38 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[04-Jun-2025 09:20:41 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:20:41 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 1
+    [id_ordine] => 1
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 09:20:41 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:20:43 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 1, ID Dettaglio: 1, Nuovo Stato: ready
+[04-Jun-2025 09:20:44 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=1, id_ordine_azione=1, id_ristorante_sessione=sanshi
+[04-Jun-2025 09:20:44 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #1 trovato, appartiene a ordine #1.
+[04-Jun-2025 09:20:44 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #1 appartiene correttamente all'ordine #1.
+[04-Jun-2025 09:33:18 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:33:18 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 10
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 09:33:18 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:33:20 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 10, ID Dettaglio: , Nuovo Stato: preparing
+[04-Jun-2025 09:33:42 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:33:42 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_complete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 09:33:42 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:33:43 Europe/Berlin] Azione: mark_all_complete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 09:33:43 Europe/Berlin] Query Batch: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($2,$3,$4) | Params: Array
+(
+    [0] => ready
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 09:33:44 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  bind message supplies 5 parameters, but prepared statement &quot;&quot; requires 4 in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 156
+[04-Jun-2025 09:33:44 Europe/Berlin] Errore DB (batch update): ERROR:  bind message supplies 5 parameters, but prepared statement "" requires 4
+[04-Jun-2025 09:33:44 Europe/Berlin] Exception in update_ordine_stato.php: Errore nell'aggiornamento batch degli items. Dettaglio: ERROR:  bind message supplies 5 parameters, but prepared statement "" requires 4
+[04-Jun-2025 09:33:53 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:33:53 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 12
+    [id_ordine] => 11
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 09:33:53 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:33:57 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 11, ID Dettaglio: 12, Nuovo Stato: ready
+[04-Jun-2025 09:33:57 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=12, id_ordine_azione=11, id_ristorante_sessione=sanshi
+[04-Jun-2025 09:33:58 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #12 trovato, appartiene a ordine #11.
+[04-Jun-2025 09:33:58 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #12 appartiene correttamente all'ordine #11.
+[04-Jun-2025 09:34:04 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:34:04 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 13
+    [id_ordine] => 11
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 09:34:04 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:34:08 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 11, ID Dettaglio: 13, Nuovo Stato: ready
+[04-Jun-2025 09:34:09 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=13, id_ordine_azione=11, id_ristorante_sessione=sanshi
+[04-Jun-2025 09:34:11 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #13 trovato, appartiene a ordine #11.
+[04-Jun-2025 09:34:11 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #13 appartiene correttamente all'ordine #11.
+[04-Jun-2025 09:34:21 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:34:21 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 14
+    [id_ordine] => 11
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 09:34:21 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:34:22 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 11, ID Dettaglio: 14, Nuovo Stato: ready
+[04-Jun-2025 09:34:22 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=14, id_ordine_azione=11, id_ristorante_sessione=sanshi
+[04-Jun-2025 09:34:22 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #14 trovato, appartiene a ordine #11.
+[04-Jun-2025 09:34:22 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #14 appartiene correttamente all'ordine #11.
+[04-Jun-2025 09:34:34 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:34:34 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 11
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 09:34:34 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:34:38 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: ready
+[04-Jun-2025 09:34:58 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:34:58 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 11
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 09:34:58 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:34:59 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: preparing
+[04-Jun-2025 09:35:08 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:35:08 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_incomplete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 09:35:08 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:35:12 Europe/Berlin] Azione: mark_all_incomplete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 09:35:12 Europe/Berlin] Query Batch: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($2,$3,$4) | Params: Array
+(
+    [0] => preparing
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 09:35:13 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  bind message supplies 5 parameters, but prepared statement &quot;&quot; requires 4 in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 156
+[04-Jun-2025 09:35:13 Europe/Berlin] Errore DB (batch update): ERROR:  bind message supplies 5 parameters, but prepared statement "" requires 4
+[04-Jun-2025 09:35:13 Europe/Berlin] Exception in update_ordine_stato.php: Errore nell'aggiornamento batch degli items. Dettaglio: ERROR:  bind message supplies 5 parameters, but prepared statement "" requires 4
+[04-Jun-2025 09:35:24 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 09:35:24 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 10
+    [id_ordine] => 10
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 09:35:24 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 09:35:26 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 10, ID Dettaglio: 10, Nuovo Stato: ready
+[04-Jun-2025 09:35:26 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=10, id_ordine_azione=10, id_ristorante_sessione=sanshi
+[04-Jun-2025 09:35:27 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #10 trovato, appartiene a ordine #10.
+[04-Jun-2025 09:35:27 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #10 appartiene correttamente all'ordine #10.
+[04-Jun-2025 15:30:45 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:30:45 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 10
+    [id_ordine] => 10
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 15:30:45 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:30:45 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 10, ID Dettaglio: 10, Nuovo Stato: preparing
+[04-Jun-2025 15:30:45 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=10, id_ordine_azione=10, id_ristorante_sessione=sanshi
+[04-Jun-2025 15:30:45 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #10 trovato, appartiene a ordine #10.
+[04-Jun-2025 15:30:45 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #10 appartiene correttamente all'ordine #10.
+[04-Jun-2025 15:30:49 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:30:49 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_incomplete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 15:30:49 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:30:49 Europe/Berlin] Azione: mark_all_incomplete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:30:49 Europe/Berlin] Query Batch: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($2,$3,$4) | Params: Array
+(
+    [0] => preparing
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 15:30:49 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  bind message supplies 5 parameters, but prepared statement &quot;&quot; requires 4 in C:\xampp\htdocs\foodwise\database\ordini\update_ordine_stato.php on line 156
+[04-Jun-2025 15:30:49 Europe/Berlin] Errore DB (batch update): ERROR:  bind message supplies 5 parameters, but prepared statement "" requires 4
+[04-Jun-2025 15:30:49 Europe/Berlin] Exception in update_ordine_stato.php: Errore nell'aggiornamento batch degli items. Dettaglio: ERROR:  bind message supplies 5 parameters, but prepared statement "" requires 4
+[04-Jun-2025 15:35:39 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:35:39 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_incomplete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 15:35:39 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:35:39 Europe/Berlin] Azione: mark_all_incomplete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:35:39 Europe/Berlin] Query Batch Corretta: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($3,$4,$5) | Params: Array
+(
+    [0] => preparing
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 15:35:42 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:35:42 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_complete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 15:35:42 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:35:42 Europe/Berlin] Azione: mark_all_complete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:35:42 Europe/Berlin] Query Batch Corretta: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($3,$4,$5) | Params: Array
+(
+    [0] => ready
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 15:41:40 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:41:40 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_complete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 15:41:40 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:41:40 Europe/Berlin] Azione: mark_all_complete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:41:40 Europe/Berlin] Query Batch Corretta: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($3,$4,$5) | Params: Array
+(
+    [0] => ready
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 15:42:03 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:03 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 11
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 15:42:03 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:03 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: ready
+[04-Jun-2025 15:42:04 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:04 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_complete
+    [id_ordine] => 11
+    [item_ids] => ["12","13","14"]
+)
+
+[04-Jun-2025 15:42:04 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:04 Europe/Berlin] Azione: mark_all_complete, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:42:04 Europe/Berlin] Query Batch Corretta: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($3,$4,$5) | Params: Array
+(
+    [0] => ready
+    [1] => 11
+    [2] => 12
+    [3] => 13
+    [4] => 14
+)
+
+[04-Jun-2025 15:42:09 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:09 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 11
+    [nuovo_stato] => served
+)
+
+[04-Jun-2025 15:42:09 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:09 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 11, ID Dettaglio: , Nuovo Stato: served
+[04-Jun-2025 15:42:17 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:17 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_complete
+    [id_ordine] => 10
+    [item_ids] => ["10","11"]
+)
+
+[04-Jun-2025 15:42:17 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:17 Europe/Berlin] Azione: mark_all_complete, ID Ordine Azione: 10, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:42:17 Europe/Berlin] Query Batch Corretta: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($3,$4) | Params: Array
+(
+    [0] => ready
+    [1] => 10
+    [2] => 10
+    [3] => 11
+)
+
+[04-Jun-2025 15:42:20 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:20 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => mark_all_complete
+    [id_ordine] => 10
+    [item_ids] => ["10","11"]
+)
+
+[04-Jun-2025 15:42:20 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:20 Europe/Berlin] Azione: mark_all_complete, ID Ordine Azione: 10, ID Dettaglio: , Nuovo Stato: 
+[04-Jun-2025 15:42:20 Europe/Berlin] Query Batch Corretta: UPDATE public.dettagli_ordine SET stato_item = $1 WHERE id_ordine = $2 AND id_dettaglio_ordine IN ($3,$4) | Params: Array
+(
+    [0] => ready
+    [1] => 10
+    [2] => 10
+    [3] => 11
+)
+
+[04-Jun-2025 15:42:21 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:21 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 10
+    [nuovo_stato] => ready
+)
+
+[04-Jun-2025 15:42:21 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:21 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 10, ID Dettaglio: , Nuovo Stato: ready
+[04-Jun-2025 15:42:29 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:42:29 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 10
+    [nuovo_stato] => served
+)
+
+[04-Jun-2025 15:42:29 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:42:29 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 10, ID Dettaglio: , Nuovo Stato: served
+[04-Jun-2025 15:43:20 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:43:20 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 17
+    [id_ordine] => 12
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 15:43:20 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:43:23 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 12, ID Dettaglio: 17, Nuovo Stato: preparing
+[04-Jun-2025 15:43:23 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=17, id_ordine_azione=12, id_ristorante_sessione=sanshi
+[04-Jun-2025 15:43:23 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #17 trovato, appartiene a ordine #12.
+[04-Jun-2025 15:43:23 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #17 appartiene correttamente all'ordine #12.
+[04-Jun-2025 15:43:25 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:43:25 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 16
+    [id_ordine] => 12
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 15:43:25 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:43:25 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 12, ID Dettaglio: 16, Nuovo Stato: preparing
+[04-Jun-2025 15:43:25 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=16, id_ordine_azione=12, id_ristorante_sessione=sanshi
+[04-Jun-2025 15:43:25 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #16 trovato, appartiene a ordine #12.
+[04-Jun-2025 15:43:25 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #16 appartiene correttamente all'ordine #12.
+[04-Jun-2025 15:43:26 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:43:26 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_item
+    [id_dettaglio_ordine] => 15
+    [id_ordine] => 12
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 15:43:26 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:43:27 Europe/Berlin] Azione: update_status_item, ID Ordine Azione: 12, ID Dettaglio: 15, Nuovo Stato: preparing
+[04-Jun-2025 15:43:27 Europe/Berlin] Inizio verifica per update_status_item: id_dettaglio_ordine_post=15, id_ordine_azione=12, id_ristorante_sessione=sanshi
+[04-Jun-2025 15:43:27 Europe/Berlin] Verifica 1 OK: Dettaglio ordine #15 trovato, appartiene a ordine #12.
+[04-Jun-2025 15:43:27 Europe/Berlin] Verifica 2 OK: Dettaglio ordine #15 appartiene correttamente all'ordine #12.
+[04-Jun-2025 15:49:00 Europe/Berlin] update_ordine_stato.php: Script avviato.
+[04-Jun-2025 15:49:00 Europe/Berlin] Dati POST ricevuti: Array
+(
+    [action] => update_status_ordine
+    [id_ordine] => 12
+    [nuovo_stato] => preparing
+)
+
+[04-Jun-2025 15:49:00 Europe/Berlin] ID Ristorante sessione: sanshi
+[04-Jun-2025 15:49:00 Europe/Berlin] Azione: update_status_ordine, ID Ordine Azione: 12, ID Dettaglio: , Nuovo Stato: preparing

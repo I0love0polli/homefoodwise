@@ -1,0 +1,76 @@
+# Attiva la riscrittura degli URL
+RewriteEngine On
+
+# Imposta la base del progetto
+RewriteBase /foodwise/
+
+# Se la richiesta è per un file o una directory esistente, lasciala passare
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Proteggi /restaurant/auth.php e /login/auth.php dalla riscrittura
+RewriteRule ^login/auth\.php$ - [L,NC]
+RewriteRule ^restaurant/auth\.php$ - [L,NC]
+
+# Reindirizza /index.php a /
+RewriteCond %{THE_REQUEST} \s/foodwise/index\.php [NC]
+RewriteRule ^ /foodwise/ [R=301,L]
+
+# Se la richiesta è per la root, carica index.php
+RewriteRule ^$ index.php [L]
+
+# Reindirizza /app/menu, /app/ordini, /app/carrello a /
+RewriteCond %{REQUEST_URI} ^/foodwise/app/(menu|ordini|carrello)/?$ [NC]
+RewriteRule ^ /foodwise/ [R=301,L]
+
+# Reindirizza /dashboard/ a /dashboard/home
+RewriteRule ^dashboard/?$ dashboard/home [R=301,L]
+
+# Riscrive gli URL per la dashboard (es. /dashboard/home, /dashboard/analitiche)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^dashboard/(.+?)/?$ dashboard/index.php?page=$1 [L,QSA]
+
+# Reindirizza /nome_ristorante a /nome_ristorante/menu, escludendo directory specifiche
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/foodwise/[a-zA-Z0-9_-]+/menu$ [NC]
+RewriteCond %{REQUEST_URI} !^/foodwise/(dashboard|login(/.*)?|signup|restaurant|home|logout)/ [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1/menu [R=301,L]
+
+# Riscrive URL come /nome_ristorante/menu (con o senza token)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/(.+?)/?$ app/index.php?ristorante=$1&page=$2 [L,QSA]
+
+# Riscrive gli URL per l'app (es. altre pagine sotto /app/, ma non /app/menu, /app/ordini, /app/carrello)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/foodwise/app/(menu|ordini|carrello)/?$ [NC]
+RewriteRule ^app/(.+?)/?$ app/index.php?page=$1 [L,QSA]
+
+# Impedisce l'accesso diretto a index.php con parametri errati
+RewriteCond %{THE_REQUEST} \s/foodwise/app/index\.php\?page=home [NC]
+RewriteRule ^ home [R=301,L]
+
+# Regole per le directory specifiche
+RewriteRule ^login/?$ login/index.php [L,QSA]
+RewriteRule ^signup/?$ signup/index.php [L,QSA]
+RewriteRule ^restaurant/?$ restaurant/index.php [L,QSA]
+RewriteRule ^home/?$ home/index.php [L,QSA]
+RewriteRule ^logout/?$ logout/index.php [L,QSA]
+
+# Riscrive URL per il menu: /nome_ristorante/menu
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/menu/?$ app/index.php?ristorante=$1&page=menu [L,QSA]
+
+# Riscrive URL per il menu con categoria: /nome_ristorante/menu/categoria
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
+
+# Riscrive URL per il menu con categoria e sottocategoria: /nome_ristorante/menu/categoria/sottocategoria
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/([^/]+)/?$ app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]

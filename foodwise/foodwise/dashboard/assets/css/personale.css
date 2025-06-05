@@ -1,0 +1,579 @@
+/* Stile del contenitore del personale */
+.personale-container {
+  background-color: #121212;
+  color: white;
+  position: relative;
+  overflow: visible;
+  min-height: 100vh;
+}
+
+/* Stile di base */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header con searchbar e pulsante Add Staff */
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-bar-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-bar .form-control {
+  background-color: #1e1e1e;
+  border: 2px solid #3f3f3f;
+  color: #e0e0e0;
+  border-radius: 8px;
+  padding: 8px 40px 8px 15px;
+  width: 100%;
+}
+
+.search-bar .form-control:focus {
+  background-color: #1e1e1e;
+  border-color: #34c759;
+  box-shadow: 0 0 8px rgba(52, 199, 89, 0.5);
+  outline: none;
+}
+
+.search-bar .form-control::placeholder {
+  color: #a0a0a0;
+  opacity: 1;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a0a0a0;
+  font-size: 1.2rem;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+/* Filtri */
+.filter-tabs {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid #3f3f3f;
+  padding-bottom: 5px;
+  flex-wrap: wrap;
+}
+
+.filter-tab {
+  background-color: transparent;
+  border: none;
+  color: #e0e0e0;
+  padding: 5px 15px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.filter-tab:hover {
+  color: #00FF7F;
+}
+
+.filter-tab.active {
+  color: #00FF7F;
+  border-bottom: 2px solid #00FF7F;
+}
+
+/* Card dello staff */
+.staff-card-content {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.staff-card-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.staff-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+}
+
+.card-text [data-lucide] {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.staff-role {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.role-icon {
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  margin-right: 4px;
+}
+
+.staff-role-manager {
+  background-color: rgba(0, 255, 127, 0.2);
+  border: 1px solid #00FF7F;
+  color: #00FF7F;
+}
+
+.staff-role-chef {
+  background-color: rgba(249, 115, 22, 0.2);
+  border: 1px solid #F97316;
+  color: #F97316;
+}
+
+.staff-role-cameriere {
+  background-color: rgba(59, 130, 246, 0.2);
+  border: 1px solid #3B82F6;
+  color: #3B82F6;
+}
+
+.staff-role-barista {
+  background-color: rgba(168, 85, 247, 0.2);
+  border: 1px solid #A855F7;
+  color: #A855F7;
+}
+
+.staff-role-cassiere {
+  background-color: rgba(239, 68, 68, 0.2);
+  border: 1px solid #EF4444;
+  color: #EF4444;
+}
+
+/* Modale (base) */
+.modal-content {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: #e0e0e0;
+}
+
+.modal-header {
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.modal-footer {
+  border-top: 1px solid #3f3f3f;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.modal-title {
+  color: #e0e0e0;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.staff-image-modal {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Stili per il modale di modifica */
+#editStaffModal .modal-body .mb-3 {
+  margin-bottom: 5px;
+  /* Ridotto da 15px a 5px per meno spazio */
+}
+
+#editStaffModal .form-control {
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #e0e0e0;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#editStaffModal .form-control[readonly] {
+  background-color: #2a2a2a;
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+#editStaffModal .form-label {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Stili per i radio button dei ruoli */
+.role-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  /* Nessun spazio tra i radio button */
+  margin: 0 0 10px 0;
+  /* Eliminato margine laterale, solo margine inferiore */
+  padding: 0;
+  /* Nessun padding interno */
+  white-space: nowrap;
+}
+
+.role-buttons .form-check {
+  margin-right: 0;
+  /* Nessun margine tra i radio button */
+  flex-shrink: 0;
+}
+
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-right: 0.6em;
+  padding-left: 0em;
+  margin-bottom: .125rem;
+}
+
+.role-radio {
+  display: none;
+}
+
+.role-label {
+  padding: 5px 15px;
+  /* Mantenuto padding interno per leggibilità */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #e0e0e0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  margin: 0;
+  /* Eliminato margine esterno */
+  padding-top: 3px !important;
+}
+
+.role-label:hover {
+  border-color: #34c759;
+  color: #34c759;
+}
+
+.role-radio:checked+.role-label {
+  border-color: transparent;
+}
+
+.role-radio:checked+.role-label[for$="RoleManager"] {
+  background-color: rgba(0, 255, 127, 0.2);
+  border: 1px solid #00FF7F !important;
+  color: #00FF7F;
+  padding-top: 3px;
+}
+
+.role-radio:checked+.role-label[for$="RoleChef"] {
+  background-color: rgba(249, 115, 22, 0.2);
+  border: 1px solid #F97316 !important;
+  color: #F97316;
+  padding-top: 3px;
+}
+
+.role-radio:checked+.role-label[for$="RoleCameriere"] {
+  background-color: rgba(59, 130, 246, 0.2);
+  border: 1px solid #3B82F6 !important;
+  color: #3B82F6;
+  padding-top: 3px;
+}
+
+.role-radio:checked+.role-label[for$="RoleBarista"] {
+  background-color: rgba(168, 85, 247, 0.2);
+  border: 1px solid #A855F7 !important;
+  color: #A855F7;
+  padding-top: 3px;
+}
+
+.role-radio:checked+.role-label[for$="RoleCassiere"] {
+  background-color: rgba(239, 68, 68, 0.2);
+  border: 1px solid #EF4444 !important;
+  color: #EF4444;
+  padding-top: 3px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* Stili per il modale di aggiunta */
+.form-label {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.form-control.with-icon {
+  background-color: #121212;
+  border: 2px solid #444;
+  color: #ffffff;
+  padding: 10px 10px 10px 50px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.form-control.with-icon:focus {
+  background-color: #121212;
+  border-color: #34c759;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.form-control.with-icon::placeholder {
+  color: #a0a0a0;
+  opacity: 0.7;
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: #a0a0a0;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
+
+.btn-action {
+  background-color: rgba(0, 255, 127, 0.2);
+  /* Giallo */
+  font-weight: 700 !important;
+  border-color: #00FF7F;
+  border: 2px solid !important;
+  color: #00FF7F;
+  padding: 0 16px;
+  /* Padding solo orizzontale */
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  height: 40px;
+  /* Stessa altezza della barra di ricerca */
+  line-height: 40px;
+  /* Centra il testo verticalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 8px;
+  /* Spazio tra icona e testo */
+}
+
+.btn-action:hover {
+  background-color: rgba(0, 255, 127, 0.2) !important;
+  color: #00FF7F !important;
+  /* Giallo più scuro */
+  border-color: #00FF7F !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 255, 127, 0.3);
+}
+
+.btn-delete {
+  background-color: rgba(239, 68, 68, 0.2);
+  /* Giallo */
+  font-weight: 700 !important;
+  border-color: #EF4444;
+  border: 1px solid !important;
+  color: #EF4444;
+  padding: 0 16px;
+  /* Padding solo orizzontale */
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  height: 40px;
+  /* Stessa altezza della barra di ricerca */
+  line-height: 40px;
+  /* Centra il testo verticalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 8px;
+  /* Spazio tra icona e testo */
+}
+
+.btn-delete:hover {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  color: #EF4444 !important;
+  /* Giallo più scuro */
+  border-color: #EF4444 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(239, 68, 68, 0.3);
+}
+
+.buttons-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  stroke-width: 3;
+}
+
+.buttons-icon-modal {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  stroke-width: 2.5;
+}
+
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.btn-secondary {
+  background-color: #444444;
+  border-color: #444444;
+}
+
+.btn-secondary:hover {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+/* Media query per filtri e pulsanti dei ruoli responsive */
+@media (max-width: 768px) {
+  .filter-tabs {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 5px 0;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* Migliora lo scorrimento su iOS */
+  }
+
+  .btn-action {
+    width: 100%;
+  }
+
+  .filter-tab {
+    padding: 5px 10px;
+  }
+
+  /* Modificato per mantenere i radio button su una riga con scrolling */
+  .role-buttons {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0;
+    /* Nessun spazio tra i radio button */
+    padding: 0;
+  }
+
+  .role-buttons .form-check {
+    margin-right: 0;
+    padding-bottom: 2px;
+  }
+
+  .role-label {
+    padding: 5px 10px;
+    /* Ridotto padding per adattarsi meglio */
+    font-size: 0.85rem;
+  }
+
+  .modal-footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .modal-footer .btn {
+    width: 100%;
+  }
+
+  .header-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .search-bar-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .search-bar {
+    max-width: 100%;
+  }
+
+  .btn-custom {
+    width: auto;
+  }
+}

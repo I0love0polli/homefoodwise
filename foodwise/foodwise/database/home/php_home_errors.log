@@ -1,0 +1,423 @@
+[04-Jun-2025 17:38:03 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 81
+[04-Jun-2025 17:38:03 Europe/Berlin] Errore query revenue: ERROR:  syntax error at or near "do"
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^
+[04-Jun-2025 17:38:03 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;capienza_massima&quot; does not exist
+LINE 1: ...enti) as num_clienti, COUNT(*) as num_tavoli, SUM(capienza_m...
+                                                             ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 102
+[04-Jun-2025 17:38:03 Europe/Berlin] Errore query tables: ERROR:  column "capienza_massima" does not exist
+LINE 1: ...enti) as num_clienti, COUNT(*) as num_tavoli, SUM(capienza_m...
+                                                             ^
+[04-Jun-2025 17:38:15 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 81
+[04-Jun-2025 17:38:15 Europe/Berlin] Errore query revenue: ERROR:  syntax error at or near "do"
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^
+[04-Jun-2025 17:38:15 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;capienza_massima&quot; does not exist
+LINE 1: ...enti) as num_clienti, COUNT(*) as num_tavoli, SUM(capienza_m...
+                                                             ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 102
+[04-Jun-2025 17:38:15 Europe/Berlin] Errore query tables: ERROR:  column "capienza_massima" does not exist
+LINE 1: ...enti) as num_clienti, COUNT(*) as num_tavoli, SUM(capienza_m...
+                                                             ^
+[04-Jun-2025 18:36:27 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:36:27 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:36:27 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:36:27 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:36:27 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 67
+[04-Jun-2025 18:36:27 Europe/Berlin] Errore query revenue: ERROR:  syntax error at or near "do"
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^
+[04-Jun-2025 18:36:27 Europe/Berlin] Incasso odierno: 0
+[04-Jun-2025 18:36:27 Europe/Berlin] Ordini attivi: 5
+[04-Jun-2025 18:36:27 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;capienza_massima&quot; does not exist
+LINE 1: SELECT COUNT(*) as num_tavoli, SUM(COALESCE(capienza_massima...
+                                                    ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 88
+[04-Jun-2025 18:36:27 Europe/Berlin] Errore query total_tables: ERROR:  column "capienza_massima" does not exist
+LINE 1: SELECT COUNT(*) as num_tavoli, SUM(COALESCE(capienza_massima...
+                                                    ^
+[04-Jun-2025 18:36:27 Europe/Berlin] Tavoli attivi: 0, Capacità totale stimata/calcolata: 0
+[04-Jun-2025 18:36:27 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:36:27 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:36:27 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:36:27 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:36:27 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:36:27 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:36:27 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:36:27 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:36:40 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:36:40 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:36:40 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:36:40 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:36:40 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 67
+[04-Jun-2025 18:36:40 Europe/Berlin] Errore query revenue: ERROR:  syntax error at or near "do"
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^
+[04-Jun-2025 18:36:40 Europe/Berlin] Incasso odierno: 0
+[04-Jun-2025 18:36:40 Europe/Berlin] Ordini attivi: 5
+[04-Jun-2025 18:36:41 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;capienza_massima&quot; does not exist
+LINE 1: SELECT COUNT(*) as num_tavoli, SUM(COALESCE(capienza_massima...
+                                                    ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 88
+[04-Jun-2025 18:36:41 Europe/Berlin] Errore query total_tables: ERROR:  column "capienza_massima" does not exist
+LINE 1: SELECT COUNT(*) as num_tavoli, SUM(COALESCE(capienza_massima...
+                                                    ^
+[04-Jun-2025 18:36:41 Europe/Berlin] Tavoli attivi: 0, Capacità totale stimata/calcolata: 0
+[04-Jun-2025 18:36:41 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:36:41 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:36:41 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:36:41 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:36:41 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:36:41 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:36:41 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:36:41 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:40:35 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_no_capienza_fix) ---
+[04-Jun-2025 18:40:35 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:40:35 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:40:35 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:40:35 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  syntax error at or near &quot;do&quot;
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 69
+[04-Jun-2025 18:40:35 Europe/Berlin] Errore query revenue: ERROR:  syntax error at or near "do"
+LINE 1: SELECT SUM(do.quantita * do.prezzo_unitario_registrato) AS t...
+                   ^
+[04-Jun-2025 18:40:35 Europe/Berlin] Incasso odierno: 0
+[04-Jun-2025 18:40:35 Europe/Berlin] Ordini attivi: 5
+[04-Jun-2025 18:40:35 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:40:35 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:40:35 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:40:35 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:40:35 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:40:35 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:40:35 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:40:35 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:40:35 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:40:35 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:44:03 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 18:44:03 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:44:03 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:44:03 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:44:03 Europe/Berlin] Incasso odierno: 86.5
+[04-Jun-2025 18:44:03 Europe/Berlin] Ordini attivi: 5
+[04-Jun-2025 18:44:03 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:44:03 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:44:03 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:44:03 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:44:03 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:44:03 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:44:03 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:44:03 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:44:03 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:44:03 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:45:02 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 18:45:02 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:45:02 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:45:02 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:45:02 Europe/Berlin] Incasso odierno: 86.5
+[04-Jun-2025 18:45:02 Europe/Berlin] Ordini attivi: 5
+[04-Jun-2025 18:45:02 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:45:02 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:45:02 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:45:02 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:45:02 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:45:02 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:45:02 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:45:02 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:45:02 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:45:02 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:45:19 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 18:45:19 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:45:19 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:45:19 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:45:19 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 18:45:19 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 18:45:19 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:45:19 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:45:19 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:45:19 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:45:19 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:45:20 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:45:20 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:45:20 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:45:20 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:45:20 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:49:30 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v5_detailed_logic) ---
+[04-Jun-2025 18:49:30 Europe/Berlin] [SESSION] Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:49:30 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:49:30 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:49:30 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 18:49:30 Europe/Berlin] Ordini attivi (non completed/cancelled): 4
+[04-Jun-2025 18:49:30 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;capienza_massima&quot; does not exist
+LINE 1: ...potential_customers_if_all_occupied, SUM(COALESCE(capienza_m...
+                                                             ^ in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 93
+[04-Jun-2025 18:49:30 Europe/Berlin] Errore query all_active_tables: ERROR:  column "capienza_massima" does not exist
+LINE 1: ...potential_customers_if_all_occupied, SUM(COALESCE(capienza_m...
+                                                             ^
+[04-Jun-2025 18:49:30 Europe/Berlin] Tavoli attivi totali: 0
+[04-Jun-2025 18:49:30 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:49:30 Europe/Berlin] Clienti ai tavoli occupati: 0
+[04-Jun-2025 18:49:30 Europe/Berlin] Percentuale capacità (clienti occupati / capacità max): 0
+[04-Jun-2025 18:49:30 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:49:30 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:49:30 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:49:30 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:49:30 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:49:30 Europe/Berlin] PHP Warning:  Undefined variable $current_customers_data in C:\xampp\htdocs\foodwise\dashboard\pages\home.php on line 213
+[04-Jun-2025 18:49:30 Europe/Berlin] PHP Warning:  Undefined variable $total_capacity_data in C:\xampp\htdocs\foodwise\dashboard\pages\home.php on line 213
+[04-Jun-2025 18:49:30 Europe/Berlin] PHP Warning:  Undefined variable $total_capacity_data in C:\xampp\htdocs\foodwise\dashboard\pages\home.php on line 214
+[04-Jun-2025 18:49:46 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 18:49:46 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:49:46 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:49:46 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:49:46 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 18:49:46 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 18:49:46 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:49:46 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:49:46 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:49:46 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:49:46 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:49:46 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:49:46 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:49:46 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:49:46 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:49:46 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:49:56 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 18:49:56 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:49:56 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:49:56 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:49:56 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 18:49:56 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 18:49:56 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:49:56 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:49:57 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:49:57 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:49:57 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:49:57 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:49:57 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:49:57 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:49:57 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:49:57 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:57:02 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v6_final_fixes) ---
+[04-Jun-2025 18:57:02 Europe/Berlin] [SESSION CHECK] Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:57:02 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:57:02 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:57:02 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 18:57:02 Europe/Berlin] Ordini attivi (non completed/cancelled): 4
+[04-Jun-2025 18:57:02 Europe/Berlin] Tavoli attivi totali: 4
+[04-Jun-2025 18:57:02 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:57:02 Europe/Berlin] Clienti ai tavoli occupati: 0
+[04-Jun-2025 18:57:02 Europe/Berlin] Capacità massima clienti STIMATA (tavoli attivi * 4): 16
+[04-Jun-2025 18:57:02 Europe/Berlin] Percentuale capacità (clienti occupati / capacità max stimata): 0
+[04-Jun-2025 18:57:02 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:57:02 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:57:02 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:57:02 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:57:02 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 18:57:02 Europe/Berlin] PHP Warning:  Undefined variable $current_customers_data in C:\xampp\htdocs\foodwise\dashboard\pages\home.php on line 213
+[04-Jun-2025 18:57:02 Europe/Berlin] PHP Warning:  Undefined variable $total_capacity_data in C:\xampp\htdocs\foodwise\dashboard\pages\home.php on line 213
+[04-Jun-2025 18:57:02 Europe/Berlin] PHP Warning:  Undefined variable $total_capacity_data in C:\xampp\htdocs\foodwise\dashboard\pages\home.php on line 214
+[04-Jun-2025 18:57:16 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 18:57:16 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 18:57:16 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 18:57:16 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 18:57:16 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 18:57:16 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 18:57:16 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 18:57:16 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 18:57:16 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 18:57:16 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 18:57:16 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 18:57:16 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 18:57:16 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 18:57:16 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 18:57:16 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 18:57:16 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 19:00:14 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 19:00:14 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 19:00:14 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 19:00:14 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 19:00:14 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 19:00:14 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 19:00:14 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 19:00:14 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 19:00:14 Europe/Berlin] Tavoli occupati: 0
+[04-Jun-2025 19:00:14 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 19:00:14 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 19:00:14 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 19:00:14 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 19:00:14 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 19:00:14 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 19:00:14 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 19:00:30 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 19:00:30 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 19:00:30 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 19:00:30 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 19:00:30 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 19:00:30 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 19:00:30 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 19:00:30 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 19:00:30 Europe/Berlin] Tavoli occupati: 1
+[04-Jun-2025 19:00:30 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 19:00:30 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 19:00:30 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 19:00:30 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 19:00:30 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 19:00:30 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 19:00:30 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 19:01:07 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 19:01:07 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 19:01:07 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 19:01:07 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 19:01:07 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 19:01:08 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 19:01:08 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 19:01:08 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 19:01:08 Europe/Berlin] Tavoli occupati: 1
+[04-Jun-2025 19:01:08 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 19:01:08 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 19:01:08 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 19:01:08 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 19:01:08 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 19:01:08 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 19:01:08 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 19:01:27 Europe/Berlin] --- Inizio esecuzione get_home_dashboard_data.php (v_alias_fix) ---
+[04-Jun-2025 19:01:27 Europe/Berlin] Sessione - Ristorante ID: sanshi, Username: heinrich_himmler
+[04-Jun-2025 19:01:27 Europe/Berlin] Connesso e sessione valida. Inizio recupero dati per ristorante: sanshi
+[04-Jun-2025 19:01:27 Europe/Berlin] Manager name: Heinrich Himmler
+[04-Jun-2025 19:01:27 Europe/Berlin] Incasso odierno: 121.5
+[04-Jun-2025 19:01:27 Europe/Berlin] Ordini attivi: 4
+[04-Jun-2025 19:01:27 Europe/Berlin] Capacità totale stimata (senza colonna capienza_massima): 16
+[04-Jun-2025 19:01:27 Europe/Berlin] Tavoli attivi: 4
+[04-Jun-2025 19:01:27 Europe/Berlin] Tavoli occupati: 1
+[04-Jun-2025 19:01:27 Europe/Berlin] Clienti attuali: 0
+[04-Jun-2025 19:01:27 Europe/Berlin] Percentuale capacità: 0
+[04-Jun-2025 19:01:28 Europe/Berlin] Prenotazioni trovate: 3
+[04-Jun-2025 19:01:28 Europe/Berlin] Recensioni trovate: 3
+[04-Jun-2025 19:01:28 Europe/Berlin] Media recensioni: 4.3, Totale recensioni: 4
+[04-Jun-2025 19:01:28 Europe/Berlin] Connessione DB chiusa.
+[04-Jun-2025 19:01:28 Europe/Berlin] --- Fine esecuzione get_home_dashboard_data.php ---
+[04-Jun-2025 19:21:55 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:25 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:26 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:26 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:27 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:27 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:27 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:27 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:28 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:28 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:28 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:29 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:33 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:34 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:34 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:34 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:34 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:34 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:35 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:35 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:38 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:38 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:39 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:39 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:39 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:39 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:41 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:41 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:41 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:42 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:42 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:42 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:44 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:44 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:45 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:45 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 19:25:47 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 20:04:03 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 20:04:14 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 20:04:20 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:27:02 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:27:03 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:27:03 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:27:04 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:27:04 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:27:04 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 21:51:14 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 22:33:08 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 22:34:46 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 22:39:24 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 22:40:14 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[04-Jun-2025 22:40:19 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[05-Jun-2025 08:38:40 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: sanshi, Username: NON IMPOSTATO
+[05-Jun-2025 08:45:11 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: NON IMPOSTATO, Username: Futherprinzt
+[05-Jun-2025 08:47:51 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: NON IMPOSTATO, Username: Futherprinzt
+[05-Jun-2025 09:04:33 Europe/Berlin] get_home_dashboard_data.php: ID ristorante o username mancante in sessione. Ristorante: NON IMPOSTATO, Username: Futherprinzt
+[05-Jun-2025 11:56:38 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xamppp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 125
+[05-Jun-2025 11:56:38 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 11:56:52 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xamppp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 125
+[05-Jun-2025 11:56:52 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 12:37:22 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xamppp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 160
+[05-Jun-2025 12:37:22 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 12:38:16 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xamppp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 160
+[05-Jun-2025 12:38:16 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 12:38:53 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xamppp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 160
+[05-Jun-2025 12:38:53 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 12:39:49 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xamppp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 160
+[05-Jun-2025 12:39:49 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 15:45:05 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 160
+[05-Jun-2025 15:45:05 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".
+[05-Jun-2025 15:45:25 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;t.id_ristorante&quot;. in C:\xampp\htdocs\foodwise\database\home\get_home_dashboard_data.php on line 160
+[05-Jun-2025 15:45:25 Europe/Berlin] get_home_dashboard_data.php: Errore query prenotazioni: ERROR:  column p.id_ristorante does not exist
+LINE 3: ... public.tavoli t ON p.id_tavolo = t.id_tavolo AND p.id_risto...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "t.id_ristorante".

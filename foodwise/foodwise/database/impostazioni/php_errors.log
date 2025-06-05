@@ -1,0 +1,23 @@
+[23-May-2025 22:42:56 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 1: SELECT password FROM ristoranti WHERE id = $1
+                                              ^ in C:\xampp\htdocs\foodwise\database\impostazioni\set_ristorante.php on line 79
+[23-May-2025 22:44:56 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 1: SELECT password FROM ristoranti WHERE id = $1
+                                              ^ in C:\xampp\htdocs\foodwise\database\impostazioni\set_ristorante.php on line 79
+[23-May-2025 22:51:01 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 1: SELECT id, password FROM ristoranti WHERE id_ristorante = $1
+               ^ in C:\xampp\htdocs\foodwise\database\impostazioni\set_ristorante.php on line 78
+[23-May-2025 22:56:57 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\foodwise\database\impostazioni\set_ristorante.php on line 98
+[23-May-2025 22:56:58 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 1: UPDATE ristoranti SET password = $1 WHERE id = $2
+                                                  ^ in C:\xampp\htdocs\foodwise\database\impostazioni\set_ristorante.php on line 116
+[26-May-2025 08:40:09 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;password&quot; does not exist
+LINE 1: SELECT password FROM personale WHERE username = $1
+               ^ in C:\xampp\htdocs\foodwise\database\impostazioni\set_user.php on line 214
+[26-May-2025 08:40:11 Europe/Berlin] PHP Warning:  pg_query_params(): Query failed: ERROR:  column &quot;password&quot; does not exist
+LINE 1: SELECT password FROM personale WHERE username = $1
+               ^ in C:\xampp\htdocs\foodwise\database\impostazioni\set_user.php on line 214
+[26-May-2025 08:42:43 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\foodwise\database\impostazioni\set_user.php on line 224
+[26-May-2025 08:42:43 Europe/Berlin] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\foodwise\database\impostazioni\set_user.php on line 224
+[26-May-2025 08:42:45 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\foodwise\database\impostazioni\set_user.php on line 224
+[26-May-2025 08:42:45 Europe/Berlin] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\xampp\htdocs\foodwise\database\impostazioni\set_user.php on line 224

@@ -1,0 +1,68 @@
+[2025-05-26 08:32:12] set_user.php started
+[2025-05-26 08:32:12] Current Username: heinrich_himmler
+[2025-05-26 08:32:14] Database connected successfully
+[2025-05-26 08:32:14] Section: userSecurity
+[2025-05-26 08:32:14] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:32:14] Tutti i campi della password sono obbligatori
+[2025-05-26 08:39:27] set_user.php started
+[2025-05-26 08:39:27] Current Username: heinrich_himmler
+[2025-05-26 08:39:29] Database connected successfully
+[2025-05-26 08:39:29] Section: userSettings
+[2025-05-26 08:39:29] Form data received (userSettings): {"fullName":"Heinrich Himmler","username":"heinrich_himmler","userPhone":"3331112233","userEmail":"heinrich.himmler@ristorante.com"}
+[2025-05-26 08:39:29] Query: UPDATE personale SET full_name = $1, telefono = $2, email = $3 WHERE username = $4
+[2025-05-26 08:39:29] Parameters: ["Heinrich Himmler","3331112233","heinrich.himmler@ristorante.com","heinrich_himmler"]
+[2025-05-26 08:39:29] Update successful
+[2025-05-26 08:39:29] set_user.php completed
+[2025-05-26 08:39:46] set_user.php started
+[2025-05-26 08:39:46] Current Username: heinrich_himmler
+[2025-05-26 08:39:48] Database connected successfully
+[2025-05-26 08:39:48] Section: userSecurity
+[2025-05-26 08:39:48] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:39:48] La nuova password deve essere lunga almeno 8 caratteri
+[2025-05-26 08:39:48] set_user.php started
+[2025-05-26 08:39:48] Current Username: heinrich_himmler
+[2025-05-26 08:39:49] Database connected successfully
+[2025-05-26 08:39:49] Section: userSecurity
+[2025-05-26 08:39:49] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:39:49] La nuova password deve essere lunga almeno 8 caratteri
+[2025-05-26 08:40:07] set_user.php started
+[2025-05-26 08:40:07] Current Username: heinrich_himmler
+[2025-05-26 08:40:08] Database connected successfully
+[2025-05-26 08:40:08] Section: userSecurity
+[2025-05-26 08:40:08] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:40:09] Errore nella verifica della password: ERROR:  column "password" does not exist
+LINE 1: SELECT password FROM personale WHERE username = $1
+               ^
+[2025-05-26 08:40:09] set_user.php started
+[2025-05-26 08:40:09] Current Username: heinrich_himmler
+[2025-05-26 08:40:11] Database connected successfully
+[2025-05-26 08:40:11] Section: userSecurity
+[2025-05-26 08:40:11] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:40:11] Errore nella verifica della password: ERROR:  column "password" does not exist
+LINE 1: SELECT password FROM personale WHERE username = $1
+               ^
+[2025-05-26 08:42:41] set_user.php started
+[2025-05-26 08:42:41] Current Username: heinrich_himmler
+[2025-05-26 08:42:43] Database connected successfully
+[2025-05-26 08:42:43] Section: userSecurity
+[2025-05-26 08:42:43] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:42:43] Password attuale non corretta
+[2025-05-26 08:42:43] set_user.php started
+[2025-05-26 08:42:43] Current Username: heinrich_himmler
+[2025-05-26 08:42:45] Database connected successfully
+[2025-05-26 08:42:45] Section: userSecurity
+[2025-05-26 08:42:45] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:42:45] Password attuale non corretta
+[2025-05-26 08:46:07] set_user.php started
+[2025-05-26 08:46:07] Current Username: heinrich_himmler
+[2025-05-26 08:46:09] Database connected successfully
+[2025-05-26 08:46:09] Section: userSecurity
+[2025-05-26 08:46:09] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:46:10] Password update successful
+[2025-05-26 08:46:10] set_user.php completed
+[2025-05-26 08:46:10] set_user.php started
+[2025-05-26 08:46:10] Current Username: heinrich_himmler
+[2025-05-26 08:46:12] Database connected successfully
+[2025-05-26 08:46:12] Section: userSecurity
+[2025-05-26 08:46:12] Security form data received: {"currentPassword":"****","newPassword":"****","confirmNewPassword":"****"}
+[2025-05-26 08:46:12] Password attuale non corretta
