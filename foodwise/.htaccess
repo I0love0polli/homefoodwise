@@ -9,20 +9,20 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# REGOLA N°2: Reindirizza /dashboard a /dashboard/home
-RewriteRule ^dashboard/?$ dashboard/home [R=301,L]
+# REGOLA N°2: Reindirizza foodwise/dashboard a /dashboard/home
+RewriteRule ^foodwise/dashboard/?$ dashboard/home [R=301,L]
 
 # REGOLA N°3: Gestisci tutte le richieste della dashboard
-RewriteRule ^dashboard/(.+) dashboard/index.php?page=$1 [L,QSA]
+RewriteRule ^foodwise/dashboard/(.+) dashboard/index.php?page=$1 [L,QSA]
 
 # REGOLA N°4: Gestisci le pagine statiche come login, signup
-RewriteRule ^(login|signup|restaurant|logout)/?$ $1/index.php [L]
+RewriteRule ^foodwise/(login|signup|restaurant|logout)/?$ $1/index.php [L]
 
 # REGOLA N°5: Gestisci le URL dell'app cliente con categoria e sottocategoria
-RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)foodwise/menu/([^/]+)/([^/]+)/?$ /app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]
 
 # REGOLA N°6: Gestisci le URL dell'app cliente con solo categoria
-RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ /app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
 
 # REGOLA N°7: Gestisci le altre pagine dell'app cliente
 RewriteRule ^([a-zA-Z0-9_-]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=$2 [L,QSA]
