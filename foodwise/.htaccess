@@ -2,7 +2,7 @@
 RewriteEngine On
 
 # Imposta la base corretta per l'ambiente di hosting
-RewriteBase /
+RewriteBase /foodwise
 
 # REGOLA N°1: IGNORA FILE E CARTELLE ESISTENTI (La più importante!)
 RewriteCond %{REQUEST_FILENAME} -f [OR]
@@ -19,10 +19,10 @@ RewriteRule ^foodwise/dashboard/(.+) dashboard/index.php?page=$1 [L,QSA]
 RewriteRule ^foodwise/(login|signup|restaurant|logout)/?$ $1/index.php [L]
 
 # REGOLA N°5: Gestisci le URL dell'app cliente con categoria e sottocategoria
-RewriteRule ^([a-zA-Z0-9_-]+)foodwise/menu/([^/]+)/([^/]+)/?$ /app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)foodwise/menu/([^/]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]
 
 # REGOLA N°6: Gestisci le URL dell'app cliente con solo categoria
-RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ /app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
 
 # REGOLA N°7: Gestisci le altre pagine dell'app cliente
 RewriteRule ^([a-zA-Z0-9_-]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=$2 [L,QSA]
