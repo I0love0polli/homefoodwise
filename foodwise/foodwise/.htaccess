@@ -22,7 +22,7 @@ RewriteRule ^(login|signup|restaurant|logout)/?$ $1/index.php [L]
 RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/([^/]+)/?$ app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]
 
 # REGOLA N°6: Gestisci le URL dell'app cliente con solo categoria
-RewriteRule ^([a-zA-Z0-9_-]+)/foodwise/menu/([^/]+)/?$ app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
 
 # REGOLA N°7: Gestisci le altre pagine dell'app cliente
 RewriteRule ^([a-zA-Z0-9_-]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=$2 [L,QSA]
