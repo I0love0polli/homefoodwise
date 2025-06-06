@@ -4,18 +4,18 @@
 // --- CONTROLLO DI SICUREZZA PER LA SESSIONE DEL CLIENTE ---
 // Un cliente può vedere il carrello solo se ha scansionato un QR code,
 // il che imposta queste variabili di sessione.
-$ristorante = $_SESSION['ristorante'] ?? null;
+$ristorante = $_SESSION['login_restaurant'] ?? null;
 $table_token = $_SESSION['table_token'] ?? null;
 $table_id = $_SESSION['table_id'] ?? null;
 
 // Se una di queste informazioni manca, l'utente non è "seduto" a un tavolo.
 // Lo reindirizziamo alla pagina principale del sito per evitare errori.
-if (!$ristorante || !$table_token || !$table_id) {
-    // Reindirizza alla homepage principale se i dati del tavolo non sono in sessione.
-    // L'URL deve essere assoluto partendo dalla root del dominio.
-    header('Location: /'); 
-    exit;
-}
+    /*if (!$ristorante || !$table_token || !$table_id) {
+        // Reindirizza alla homepage principale se i dati del tavolo non sono in sessione.
+        // L'URL deve essere assoluto partendo dalla root del dominio.
+        header('Location: /'); 
+        exit;
+    }*/
 // --- FINE CONTROLLO DI SICUREZZA ---
 
 
