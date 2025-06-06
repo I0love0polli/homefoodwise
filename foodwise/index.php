@@ -1936,8 +1936,8 @@
         <div class="section-header-icon">
             <i data-lucide="brain" class="card-header-icon"></i>
         </div>
-        <h2>ANALISI BASATE SULL’INTELLIGENZA ARTIFICIALE</h2>
-        <p>FOODWISE utilizza l’intelligenza artificiale avanzata per analizzare i tuoi dati e fornire indicazioni operative.</p>
+        <h2>ANALISI BASATE SULLA RACCOLTA DI DATI</h2>
+        <p>FOODWISE analizza i dati per fornire indicazioni operative sull andamento del tuo locale.</p>
         <div class="features-grid">
             <div class="feature-card ai-card">
                 <div class="card-body">
