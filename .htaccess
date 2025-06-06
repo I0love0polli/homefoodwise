@@ -1,0 +1,41 @@
+# Attiva il motore di riscrittura
+RewriteEngine On
+
+# La base è la root del dominio.
+RewriteBase /
+
+# REGOLA DI SICUREZZA: Impedisce l'accesso diretto a cartelle sensibili
+RewriteRule ^foodwise/(vendor|database)/ - [F,L]
+
+# REGOLA 1: Se la richiesta è per un file o una cartella che ESISTE GIÀ, fermati.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+
+# --- REGOLE PER LA DASHBOARD ---
+# Esempio: /foodwise/dashboard/analitiche -> /foodwise/dashboard/index.php?page=analitiche
+RewriteRule ^foodwise/dashboard/([a-zA-Z0-9_-]+)/?$ foodwise/dashboard/index.php?page=$1 [L,QSA]
+
+# Esempio: /foodwise/dashboard -> /foodwise/dashboard/home
+RewriteRule ^foodwise/dashboard/?$ /foodwise/dashboard/home [R=301,L]
+
+
+# --- REGOLE PER LE PAGINE STATICHE ---
+# Esempio: /foodwise/login -> /foodwise/login/index.php
+RewriteRule ^foodwise/(login|signup|restaurant|logout)/?$ foodwise/$1/index.php [L]
+
+
+# --- REGOLE PER L'APP CLIENTE ---
+# La condizione impedisce conflitti con /dashboard, /login, etc.
+RewriteCond %{REQUEST_URI} !^/foodwise/(dashboard|login|signup|restaurant|logout|app|assets|database)/
+RewriteRule ^foodwise/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/?$ foodwise/app/index.php?ristorante=$1&page=$2 [L,QSA]
+    
+# Reindirizza /foodwise/ristorante -> /foodwise/ristorante/menu
+RewriteCond %{REQUEST_URI} !^/foodwise/(dashboard|login|signup|restaurant|logout|app|assets|database)/
+RewriteRule ^foodwise/([a-zA-Z0-9_-]+)/?$ /foodwise/$1/menu [R=301,L]
+
+
+# --- REGOLA PER LA HOMEPAGE ---
+# Esempio: /foodwise/ -> /foodwise/index.php
+RewriteRule ^foodwise/?$ foodwise/index.php [L]
