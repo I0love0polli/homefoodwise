@@ -6,7 +6,7 @@
 // il che imposta queste variabili di sessione.
 $ristorante = $_SESSION['login_restaurant'] ?? null;
 $table_token = $_SESSION['table_token'] ?? null;
-$table_id = $_SESSION['table_id'] ?? null;
+$table_id = $_SESSION['tableid'] ?? null;
 
 // Se una di queste informazioni manca, l'utente non è "seduto" a un tavolo.
 // Lo reindirizziamo alla pagina principale del sito per evitare errori.
