@@ -1,31 +1,53 @@
-# Attiva il motore di riscrittura degli URL
+# Attiva il motore di riscrittura
 RewriteEngine On
 
-# Imposta la base corretta per l'ambiente di hosting
-RewriteBase /foodwise
+# Imposta la base dell'URL alla radice del dominio.
+RewriteBase /
 
-# REGOLA N°1: IGNORA FILE E CARTELLE ESISTENTI (La più importante!)
+# REGOLA DI SICUREZZA: Impedisce l'accesso diretto a cartelle sensibili
+RewriteRule ^(vendor|database)/ - [F,L]
+
+# ======================================================================
+#             ORDINE DELLE REGOLE (DALLA PIÙ SPECIFICA ALLA PIÙ GENERICA)
+# ======================================================================
+
+# REGOLA 1: Se la richiesta è per un file o una cartella che esiste già, fermati.
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# REGOLA N°2: Reindirizza foodwise/dashboard a /dashboard/home
-RewriteRule ^foodwise/dashboard/?$ dashboard/home [R=301,L]
 
-# REGOLA N°3: Gestisci tutte le richieste della dashboard
-RewriteRule ^foodwise/dashboard/(.+) dashboard/index.php?page=$1 [L,QSA]
+# --- REGOLE PER LA DASHBOARD ---
+# Vengono eseguite per prime perché "dashboard" è una parola chiave specifica.
 
-# REGOLA N°4: Gestisci le pagine statiche come login, signup
-RewriteRule ^foodwise/(login|signup|restaurant|logout)/?$ $1/index.php [L]
+# REGOLA 2A: Gestisce tutte le pagine della dashboard.
+# Esempio: /dashboard/analitiche -> /dashboard/index.php?page=analitiche
+RewriteRule ^dashboard/([a-zA-Z0-9_-]+)/?$ dashboard/index.php?page=$1 [L,QSA]
 
-# REGOLA N°5: Gestisci le URL dell'app cliente con categoria e sottocategoria
-RewriteRule ^([a-zA-Z0-9_-]+)foodwise/menu/([^/]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2&subcat=$3 [L,QSA]
+# REGOLA 2B: Se si visita solo "/dashboard", reindirizza a "/dashboard/home"
+RewriteRule ^dashboard/?$ /dashboard/home [R=301,L]
 
-# REGOLA N°6: Gestisci le URL dell'app cliente con solo categoria
-RewriteRule ^([a-zA-Z0-9_-]+)/menu/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=menu&category=$2 [L,QSA]
 
-# REGOLA N°7: Gestisci le altre pagine dell'app cliente
-RewriteRule ^([a-zA-Z0-9_-]+)/([^/]+)/?$ /foodwise/app/index.php?ristorante=$1&page=$2 [L,QSA]
+# --- REGOLE PER LE PAGINE STATICHE ---
+# REGOLA 3: Gestisce pagine come /login, /signup, etc.
+RewriteRule ^(login|signup|restaurant|logout)/?$ $1/index.php [L]
 
-# REGOLA N°8: Gestisci la richiesta alla homepage del sito
+
+# --- REGOLE PER L'APP CLIENTE (quelle che creavano il loop) ---
+
+# REGOLA 4: Gestisce le pagine del ristorante (menu, carrello...).
+# La condizione 'RewriteCond' è la correzione chiave: impedisce a questa regola
+# di attivarsi se l'URL inizia con una delle nostre parole chiave (dashboard, login, etc.)
+RewriteCond %{REQUEST_URI} !^/(dashboard|login|signup|restaurant|logout|app|assets|database)/
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/?$ app/index.php?ristorante=$1&page=$2 [L,QSA]
+
+# REGOLA 5: Reindirizza la pagina principale di un ristorante al suo menu.
+# Anche questa ha la condizione di sicurezza per evitare conflitti.
+RewriteCond %{REQUEST_URI} !^/(dashboard|login|signup|restaurant|logout|app|assets|database)/
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ /$1/menu [R=301,L]
+
+
+# --- REGOLA PER LA HOMEPAGE ---
+
+# REGOLA 6: Gestisce la homepage principale del sito.
 RewriteRule ^$ index.php [L]
