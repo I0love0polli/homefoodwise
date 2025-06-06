@@ -1,41 +1,41 @@
 # Attiva il motore di riscrittura
 RewriteEngine On
 
-# La base è la root del dominio.
+# La base è la root del dominio, va bene così.
 RewriteBase /
 
-# REGOLA DI SICUREZZA: Impedisce l'accesso diretto a cartelle sensibili
-RewriteRule ^foodwise/(vendor|database)/ - [F,L]
+# ======================================================================
+#             REGOLA MAGICA: INTERCETTA E PULISCI L'URL
+# ======================================================================
+# Questa è la regola chiave che risolve il tuo problema.
+# Prende qualsiasi richiesta che inizia con "/foodwise/"
+# e la riscrive internamente togliendo quel prefisso.
+# Esempio: una richiesta per "/foodwise/dashboard/home"
+# diventa "/dashboard/home" prima di passare alle regole successive.
+RewriteRule ^foodwise/(.*)$ /$1 [L]
 
-# REGOLA 1: Se la richiesta è per un file o una cartella che ESISTE GIÀ, fermati.
+
+# A questo punto, tutte le regole successive funzioneranno come se
+# il prefisso "/foodwise/" non fosse mai esistito.
+
+# Se la richiesta è per un file o una cartella reale, non fare nulla.
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
+# --- Regole per la Dashboard (ora funzionano con l'URL pulito) ---
+RewriteRule ^dashboard/([a-zA-Z0-9_-]+)/?$ dashboard/index.php?page=$1 [L,QSA]
+RewriteRule ^dashboard/?$ /dashboard/home [R=301,L]
 
-# --- REGOLE PER LA DASHBOARD ---
-# Esempio: /foodwise/dashboard/analitiche -> /foodwise/dashboard/index.php?page=analitiche
-RewriteRule ^foodwise/dashboard/([a-zA-Z0-9_-]+)/?$ foodwise/dashboard/index.php?page=$1 [L,QSA]
+# --- Regole per Pagine Statiche ---
+RewriteRule ^(login|signup|restaurant|logout)/?$ $1/index.php [L]
 
-# Esempio: /foodwise/dashboard -> /foodwise/dashboard/home
-RewriteRule ^foodwise/dashboard/?$ /foodwise/dashboard/home [R=301,L]
+# --- Regole per l'App Cliente ---
+RewriteCond %{REQUEST_URI} !^/(dashboard|login|signup|restaurant|logout|app|assets|database)/
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/?$ app/index.php?ristorante=$1&page=$2 [L,QSA]
 
+RewriteCond %{REQUEST_URI} !^/(dashboard|login|signup|restaurant|logout|app|assets|database)/
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ /$1/menu [R=301,L]
 
-# --- REGOLE PER LE PAGINE STATICHE ---
-# Esempio: /foodwise/login -> /foodwise/login/index.php
-RewriteRule ^foodwise/(login|signup|restaurant|logout)/?$ foodwise/$1/index.php [L]
-
-
-# --- REGOLE PER L'APP CLIENTE ---
-# La condizione impedisce conflitti con /dashboard, /login, etc.
-RewriteCond %{REQUEST_URI} !^/foodwise/(dashboard|login|signup|restaurant|logout|app|assets|database)/
-RewriteRule ^foodwise/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/?$ foodwise/app/index.php?ristorante=$1&page=$2 [L,QSA]
-    
-# Reindirizza /foodwise/ristorante -> /foodwise/ristorante/menu
-RewriteCond %{REQUEST_URI} !^/foodwise/(dashboard|login|signup|restaurant|logout|app|assets|database)/
-RewriteRule ^foodwise/([a-zA-Z0-9_-]+)/?$ /foodwise/$1/menu [R=301,L]
-
-
-# --- REGOLA PER LA HOMEPAGE ---
-# Esempio: /foodwise/ -> /foodwise/index.php
-RewriteRule ^foodwise/?$ foodwise/index.php [L]
+# --- Regola per la Homepage ---
+RewriteRule ^$ index.php [L]
